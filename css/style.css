@@ -46,7 +46,7 @@ html {
 
 .hamburger-menu-content {
   display: none;
-    /*position:absolute;*/
+    position:relative;
 }
 
 .flex {
@@ -73,6 +73,8 @@ html {
   border: none;
   border-radius: 2px;
   z-index: 10;
+      position: absolute;
+    top: -100px;
 }
 
 .hamburger-menu.active {
@@ -135,7 +137,9 @@ html {
   top: 0;
   z-index: 9;
   text-decoration: none;
-  display: none
+  display: none;
+      position: absolute;
+    top: -140px;
 }
 
 .menu ul {

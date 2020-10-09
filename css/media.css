@@ -164,7 +164,7 @@
     }
 
     .index-fb-embedded {
-      text-align: center;
+      text-align: left;
     }
 
     .fb-page {
@@ -183,7 +183,11 @@
     #copyright,
     #bottomstage,
     #mainstage03,
-    .understage {
+    .understage,
+    .ins02,
+    .ins03,
+    .ns04,
+    .ins01 {
       width: auto !important;
     }
 
@@ -303,7 +307,22 @@
     .info001,
     .info002,
     .culturespace,
-    .cul001 {
+    .cul001,
+    .policy01,
+    .policy02,
+    .policy01-th,
+    .policy02-th,
+    .uecopysub-th,
+    .sche004,
+    .sche005,
+    .sche006,
+    .sche007,
+    .sche008,
+    .backupspace01,
+    .backup003,
+    .backup001,
+    .backup002,
+    .backup004 {
       width: auto !important;
     }
 
@@ -313,7 +332,8 @@
     .everyspace01 table,
     #newsstage table,
     #bottomstage table,
-    .culturespace table {
+    .culturespace table,
+    .backupspace01 table {
       width: 100%
     }
 
@@ -356,10 +376,38 @@
   }
 
   /*Mobile View*/
-
+ @media only screen and (max-width: 376px) {
+  .contents01, .contents02, .contents03, .contents04 {
+    width: 43%!important;
+  }
+  .contents01 img, .contents02 img, .contents03 img, .contents04 img {
+    width: 100%;
+  }
+  .staff-mem > td {
+    display: block!important
+  }
+  .staff-members {
+    width:  100%!important
+  }
+  .staff-mem table {
+    margin-left:0!important;
+  }
+  .fb-like,.inlineBlock._2tga._89n_._8j9v {
+    display:none !important;
+  }
+  .fb-page,._2p3a {
+    width: 100% !important;
+  }
+}
   @media only screen and (max-width: 599px) {
     #header .contact-us {
       width: 75%;
+    }
+    .fb-like,.inlineBlock._2tga._89n_._8j9v {
+      display:none !important;
+    }
+    .fb-page,._2p3a {
+      width: 100% !important;
     }
   }
 
@@ -371,7 +419,7 @@
     }
 
     .navigation {
-      display: block;
+      display: block
     }
   }
 
@@ -383,30 +431,6 @@
     }
 
     .navigation {
-      display: block;
+      display: block
     }
   }
-/* GREG CHANGES */
-@media only screen and (max-width:375px) {
-
-  #topstage img{
-    width: 115% !important;
-    height: 100% !important;
-  }
-
-  #mainstage .leftstage{
-    float: none !important;
-    width: 110% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    text-align: center !important;
-  }
-
-  #newsstage .tb_2 {
-    display: none !important;
-  }
-  
-  #newsstage td {
-    display: flex !important;
-  }
-}
