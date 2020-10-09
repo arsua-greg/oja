@@ -164,7 +164,7 @@
     }
 
     .index-fb-embedded {
-      text-align: left;
+      text-align: center;
     }
 
     .fb-page {
@@ -361,9 +361,6 @@
     #header .contact-us {
       width: 75%;
     }
-
-
-
   }
 
   @media only screen and (min-width: 600px) {
@@ -374,7 +371,7 @@
     }
 
     .navigation {
-      display: block
+      display: block;
     }
   }
 
@@ -386,6 +383,30 @@
     }
 
     .navigation {
-      display: block
+      display: block;
     }
   }
+/* GREG CHANGES */
+@media only screen and (max-width:375px) {
+
+  #topstage img{
+    width: 115% !important;
+    height: 100% !important;
+  }
+
+  #mainstage .leftstage{
+    float: none !important;
+    width: 110% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+  }
+
+  #newsstage .tb_2 {
+    display: none !important;
+  }
+  
+  #newsstage td {
+    display: flex !important;
+  }
+}
