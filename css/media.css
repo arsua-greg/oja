@@ -377,6 +377,9 @@
 
   /*Mobile View*/
  @media only screen and (max-width: 376px) {
+  #bottommenu,.copy02,.copy03,.pro01,.pro02{
+    width:100% !important;
+  }
   .contents01, .contents02, .contents03, .contents04 {
     width: 43%!important;
   }
