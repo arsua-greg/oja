@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.col-osaka{
+	background:url(../images/osaka/index-osaka.jpg) no-repeat 0px 0px;
+	height:990px;
+	}
+
+.col-osaka p{
+	width:690px;
+	}

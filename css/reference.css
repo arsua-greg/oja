@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+
+dl.bosyu-list{
+	margin:10px 0px;
+	}
+	
+dl.bosyu-list dt{
+	width:100px;
+	float:left;
+	clear:right;
+	margin-bottom:5px;
+	}
+
+dl.bosyu-list dd{
+	width:720px;
+	float:right;
+	margin-bottom:5px;
+	}
+	
+table.style-A{
+	margin:13px 0px;
+	}
+
+table.style-A th,table.style-A td{
+	padding:13px;
+	vertical-align:middle;
+	}
+
+table.style-A td{
+	text-align:center;
+	}
+
+table.style-A th.bg-color-B{
+	width:105px;
+	text-align:center;
+	letter-spacing:0.2em;
+	}
+
+.col2{
+	width:237px!important;
+	}
+
+.color-thtitleA{
+	background-color:#FDEFF5;
+	}
+	
+.color-thtitleB{
+	background-color:#FDECE3;
+	}
+
+.care-list{
+	margin-bottom:30px;
+	}
+
+.care-list li{
+	font-size:0.85em;
+	margin-bottom:3px;
+	}
+
+.pdfdl-list{
+	margin:13px 0px 13px 10px;
+	}
+	
+.pdfdl-list li{
+	float:left;
+	width:128px;
+	height:100px;
+	background-color:#FDEAD5;
+	margin-right:10px;
+	overflow:hidden;
+	}
+	
+.pdfdl-list li a{
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	font-weight:bold;
+	display:block;
+	width:128px;
+	height:100px;
+	line-height:4em;
+	background:url(../images/recruit/top-pdfdl.jpg) no-repeat 10px 45px; 
+	}
+
+.readerdl-col{
+	background-color:#F2F2F2;
+	padding:10px;
+	margin:10px 10px 30px 10px;
+	}
+	
+.week-table{
+	margin-bottom:30px!important;
+	}
+
+.week-table th{
+	width:140px;
+	text-align:center;
+	letter-spacing:0.2em;
+	}
+	
+.step-list{
+	margin:13px 0px 30px 0px;
+	}
+
+.step-list li{
+	height:28px;
+	padding:12px 18px 40px 18px;
+	background:url(../images/recruit/top-step-bg.jpg) no-repeat 0px 0px;
+	overflow:hidden;
+	}
+
+.step-list li.last{
+	background:url(../images/recruit/top-step-last-bg.jpg) no-repeat 0px 0px;
+	height:28px;
+	padding:12px 18px 10px 18px;
+	overflow:hidden;
+	}
+
+.step-list li span{
+	color:#005B94;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	width:35px;
+	height:28px;
+	display:block;
+	float:left;
+	font-size:1.65em;
+	overflow:hidden;
+	}
+
+.step-list li strong{
+	color:#005B94;
+	font-weight:bold;
+	width:190px;
+	height:28px;
+	display:block;
+	float:left;
+	overflow:hidden;
+	}

@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+-------------------------------------------
+	Subnavigation
+-------------------------------------------
+*/
+
+.subnavigation{
+	float:right;
+	width:390px;
+	height:105px;
+	overflow:hidden;	
+	}
+
+li.tel{
+	width:390px;
+	text-align:right;
+	margin-bottom:3px;
+	}
+
+/*	資料請求とお問い合わせ */
+
+li.input-shiryo,li.input-contact{
+	float:left;
+	width:190px;
+	height:50px;
+	}
+
+li.input-shiryo a,li.input-contact a{
+	display:block;
+	width:190px;
+	height:50px;
+	background-image:url(../images/common/header-subnav.gif);
+	background-repeat:no-repeat;
+	text-indent:-999em;
+	overflow:hidden;
+	}
+
+li.input-shiryo{
+	margin-right:5px;
+	}
+
+li.input-shiryo a{
+	background-position:0px 0px;
+	}
+
+li.input-shiryo a:hover{
+	background-position:0px -51px;
+	}
+
+li.input-contact a{
+	background-position:-195px 0px;
+	}
+
+li.input-contact a:hover{
+	background-position:-195px -51px;
+	}
+/*
+-------------------------------------------
+	globalnavigation
+-------------------------------------------
+*/
+
+
+#glovalnav ul{
+	background:url(../images/common/glovalnav.jpg) no-repeat 0px 0px;
+	overflow:hidden;
+	width:960px;
+	height:53px;
+	margin-top:10px;
+	clear:both;
+	}
+	
+#glovalnav li{
+  float:left;
+  width:137px;
+  height:53px;
+}
+
+#glovalnav li a{
+	display:block;
+	width:137px;
+	height:53px;
+	text-indent:-9999em;
+	overflow:hidden;
+}
+
+#glovalnav li.menu01 a:hover,#top #glovalnav li.menu01{
+	background:url(../images/common/glovalnav.jpg) no-repeat 0px -56px;
+	}
+
+#glovalnav li.menu02 a:hover,#school #glovalnav li.menu02,#ac-ar #glovalnav li.menu02{
+	background:url(../images/common/glovalnav.jpg) no-repeat -137px -56px;
+	}
+
+#glovalnav li.menu03 a:hover,#fe-top #glovalnav li.menu03{
+	background:url(../images/common/glovalnav.jpg) no-repeat -274px -56px;
+	}
+
+#glovalnav li.menu04 a:hover,#curi #glovalnav li.menu04{
+	background:url(../images/common/glovalnav.jpg) no-repeat -411px -56px;
+	}
+
+#glovalnav li.menu05 a:hover,#recruit #glovalnav li.menu05{
+	background:url(../images/common/glovalnav.jpg) no-repeat -548px -56px;
+	}
+	
+#glovalnav li.menu06 a:hover,#schedule #glovalnav li.menu06{
+	background:url(../images/common/glovalnav.jpg) no-repeat -685px -56px;
+	}
+
+#glovalnav li.menu07 a:hover,#access #glovalnav li.menu07{
+	width:138px!important;
+	background:url(../images/common/glovalnav.jpg) no-repeat -822px -56px;
+	}
+
+/*
+-------------------------------------------
+	footernav
+-------------------------------------------
+*/
+
+#footer .footernav{
+	float:right;
+	margin-bottom:7px;
+	}
+
+#footer .footernav li{
+	float:left;
+	background:url(../images/common/icon-link.gif) no-repeat 0px 6px;
+	padding:3px 15px 3px 14px;
+	}
+
+#footer .footernav li a{
+	display:block;
+	color:#FFFFFF;
+	}
+
+/*
+-------------------------------------------
+	luang navigation
+-------------------------------------------
+*/
+
+.luangnavigation{
+	float:right;
+	width:390px;
+	font-size:80%;
+	height:17px;
+	margin-bottom:3px;
+	overflow:hidden;
+	}
+
+.luangnavigation li{
+	float:right;
+	display:inline;
+	margin-left:5px;
+	padding:0px 5px;
+	border-left:1px dotted #BDAA94;
+	}
+
+.luangnavigation li a{
+	display:block;
+	}
+
+.luangnavigation li a img{
+	padding-right:4px;
+	}

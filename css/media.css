@@ -1,0 +1,391 @@
+  /* UTIL */
+  .u-d-n {
+    display: none;
+  }
+
+  /* UTIL */
+  .u-d-t-c {
+    text-align: center !important;
+  }
+
+  /*Tablet View*/
+  @media only screen and (max-width: 769px) {
+    body {
+      /*overflow-x: hidden;*/
+    }
+
+    /* UTIL */
+
+    .u-d-n-sp {
+      display: none;
+    }
+
+    #header,
+    .hamburger-menu-content {
+      display: block !important;
+      width: 100%;
+    }
+
+    #header table {
+      width: 100%;
+    }
+
+    #header {
+      width: 100% !important
+    }
+
+    #header .top-heading {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      display: inline-block;
+    }
+
+
+    .com-logo {
+      margin-left: 10px;
+    }
+
+    .com-logo img {
+      width: 140px;
+      height: auto
+    }
+
+    .contact {
+      float: right;
+      right: 0;
+      width: 100% !important;
+      margin-top: -32px;
+    }
+
+    .contact-num {
+      float: right;
+      /* width: 100%; */
+      /* right: -37px; */
+      text-align: right;
+    }
+
+    .contact-num img {
+      width: 225px;
+      height: auto;
+    }
+
+    .m-d-n {
+      display: none
+    }
+
+    .rightstage {
+      display: none
+    }
+
+
+    #rightstage {
+      display: none;
+    }
+
+    .leftstage {
+      float: none !important;
+      width: 100% !important;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+
+    .contents01,
+    .contents02,
+    .contents03,
+    .contents04 {
+
+      margin: 5px !important;
+      /* float: left; */
+      float: none !important;
+
+      display: inline-block;
+    }
+
+    .contents01 img,
+    .contents02 img,
+    .contents03 img,
+    .contents04 img {
+      width: auto;
+      height: auto;
+      -webkit-box-shadow: 10px 11px 5px -3px rgba(214, 214, 214, 0.59);
+      -moz-box-shadow: 10px 11px 5px -3px rgba(214, 214, 214, 0.59);
+      box-shadow: 10px 11px 5px -3px rgba(214, 214, 214, 0.59);
+    }
+
+    /* CHANGE BY JAMES */
+    #header > table > tbody > tr > td.contact > table.languages > tbody > tr > td:nth-child(1){
+    	width: 1px;
+    }
+    #newsstage {
+      width: auto !important;
+      margin-top: 30px;
+      float: none !important;
+    }
+
+    #indoorview {
+      width: auto !important;
+      margin-top: 30px;
+      float: none !important;
+    }
+    #indoorview table{
+      width: inherit !important;
+    }
+
+    .saport {
+      width: auto !important;
+    }
+
+    .saport .item {
+      display: flex;
+      padding: 20px;
+      line-height: 18px;
+      width: auto;
+    }
+
+    .saport .heading img {
+      width: 100%;
+      height: auto;
+    }
+
+    .saport .item img {
+      padding-right: 20px;
+    }
+
+    .saport table {
+      width: inherit !important;
+      border-spacing: 0 1em;
+    }
+
+    .saport table img {
+      width: 100% !important;
+      height: auto !important
+    }
+
+    .index-fb-embedded {
+      text-align: left;
+    }
+
+    .fb-page {
+      width: auto !important;
+    }
+
+    .fb-page iframe, #indoorview iframe{
+      width: 94.5vw !important;
+    }
+
+    span {
+      width: auto !important;
+    }
+
+    #bottomcontory,
+    #copyright,
+    #bottomstage,
+    #mainstage03,
+    .understage {
+      width: auto !important;
+    }
+
+    #bottomcontory a img {
+      width: calc(90%/4) !important;
+    }
+
+    /* END OF CHANGE BY JAMES */
+
+
+    .w-100 {
+      width: 100% !important;
+    }
+
+    .w-90 {
+      width: 90% !important;
+    }
+
+    .w-auto {
+      width: auto !important;
+    }
+
+    .h-auto {
+      height: auto !important
+    }
+
+    .p-0 {
+      padding: 0 !important;
+    }
+
+    .m-auto {
+      margin: 0 auto !important;
+    }
+
+    .f-none {
+      float: none !important
+    }
+
+    .d-block {
+      display: block !important;
+    }
+
+    .d-inline {
+      display: inline-block !important;
+    }
+
+    .d-none {
+      display: none !important;
+    }
+
+    .p-20 {
+      padding: 20px !important;
+    }
+
+    .m-top-20 {
+      margin-top: 20px;
+    }
+
+    .t-center {
+      text-align: center !important;
+    }
+
+    .copy01 {
+      width: 100% !important
+    }
+
+    .staff-mem {
+      padding: 20px
+    }
+
+    .footer-logo {
+      padding-left: 20px;
+    }
+
+    #gomi {
+      padding-left: 20px;
+      width: auto !important
+    }
+
+    #header .contact-num {
+      display: none
+    }
+
+    #header .languages {
+      text-align: center;
+      margin: 31px auto 0;
+    }
+
+    #header .contact-us {
+      display: block
+    }
+
+    .hyodai {
+      width: auto !important
+    }
+
+    .hyodai img {
+      width: 100% !important;
+      height: auto !important;
+    }
+
+    #mainstage,
+    #topstage,
+    .gaiyouspace,
+    .gaiyouspace .map01,
+    .map03,
+    .map02,
+    #understage02,
+    .assessment01,
+    .uecopy,
+    .uecopysub,
+    .evebox01,
+    .evebox02,
+    .everyspace01,
+    .line01,
+    .gaiyouspace,
+    .info001,
+    .info002,
+    .culturespace,
+    .cul001 {
+      width: auto !important;
+    }
+
+    .gaiyouspace table,
+    #understage02 table,
+    #mainstage03 table,
+    .everyspace01 table,
+    #newsstage table,
+    #bottomstage table,
+    .culturespace table {
+      width: 100%
+    }
+
+    #mainstage03 table img, .culturespace table img {
+      width: 100%;
+      height: auto
+    }
+
+    #leftstage {
+      width: auto !important;
+      float: none !important;
+    }
+
+    .map03 iframe,
+    .gaiyouspace iframe {
+      width: 100% !important
+    }
+
+    .boxeve {
+      font-size: 14px
+    }
+
+    .evebox01 td,
+    .evebox02 td {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+
+    .evebox01 td img,
+    .evebox02 td img {
+
+      padding-bottom: 20px;
+    }
+
+    .footer-links .col-2 {
+      width: 43%;
+      display: inline-block;
+    }
+  }
+
+  /*Mobile View*/
+
+  @media only screen and (max-width: 599px) {
+    #header .contact-us {
+      width: 75%;
+    }
+
+
+
+  }
+
+  @media only screen and (min-width: 600px) {
+
+    /* UTIL */
+    .u-d-n-md {
+      display: none;
+    }
+
+    .navigation {
+      display: block
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+
+    /* UTIL */
+    .u-d-n-pc {
+      display: none;
+    }
+
+    .navigation {
+      display: block
+    }
+  }

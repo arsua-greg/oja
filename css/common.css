@@ -1,0 +1,434 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+-------------------------------------------
+	基本構造
+-------------------------------------------
+*/
+
+html{	}
+
+
+body{
+	background-color:white;
+	font-family: 'メイリオ' , Meiryo, Verdana, 'ヒラギノ角ゴ Pro W3' , 'Hiragino Kaku Gothic Pro' ,Osaka, 'ＭＳ Ｐゴシック', sans-serif;
+	font-size:85%;
+	line-height:1.43em;
+	color:#4C4747;
+	}
+
+#wrapper{
+	width:960px;
+	height:inherit;
+	overflow:hidden;
+	margin:0 auto;
+	}
+	
+#header{
+	widrh:960px;
+	height:115px;
+	margin-top:10px;
+	}
+
+#container{
+	clear:both;
+	width:900px;
+	background:url(../images/common/container-bg.gif) repeat-y 0px 0px;
+	padding:15px 30px 25px 30px;
+	}
+
+#main{
+	background:url(../images/common/main-bg.gif) repeat-y 0px 0px;
+	overflow:hidden;
+	width:840px;
+	padding:18px 30px 0px 30px;
+	/padding-bottom:5px;	
+	/border-bottom:1px solid #e0e0e0;
+	}
+
+hr#main-foot{
+	background:url(../images/common/main-foot-bg.gif) no-repeat bottom;
+	height:16px;
+	/height:1px;
+	/border-bottom:1px solid #faf7e1;
+	}
+
+#footer{
+	background:url(../images/common/footer-bg.gif) no-repeat center top;
+	padding:0px 30px 10px 30px;
+	color:#FFFFFF;
+	font-size:80%;
+	line-height:1.3em;
+	}
+
+.col-main{
+	float:left;
+	width:470px;
+	margin-right:20px;
+	}
+
+.col-sub{
+	float:right;
+	width:350px;
+	}
+
+.col-left{
+	float:left;
+	width:420px;
+	}
+
+.col-right{
+	float:right;
+	width:420px;
+	}
+/*
+---------------------------------------
+	Header ※subnavはnavigation.cssに
+---------------------------------------
+*/	
+
+#header .logo{
+	float:left;
+	width:223px;
+	height:58px;
+	padding:12px 10px 0px 0px;
+	}
+
+#header .caption{
+	float:left;
+	width:337px;
+	height:105px;
+	overflow:hidden;
+	color:#71BC48;
+	font-size:78%;
+	line-height:1.23em;	
+	}
+
+/*
+-------------------------------------------
+	footer
+-------------------------------------------
+*/
+
+#footer .col-left{
+	float:left;
+	width:500px;
+	border-left:3px solid #71BC48;
+	padding-bottom:10px;
+	}
+
+#footer .col-right{
+	float:right;
+	width:337px;
+	padding-top:10px;
+	}
+
+#footer .col-left h4{
+	padding:15px 15px 3px 10px;
+	}
+
+#footer .col-left address{
+	padding:0px 15px 0px 10px;
+	}
+
+#footer .col-left address a.icon-link{
+	background-position:0px 6px;
+	}
+
+.copyright{
+	clear:both;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:10px 0px;
+	}
+
+#footer .banner-list{
+	clear:both;
+	float:right;
+	margin-bottom:15px;
+	}
+
+/*
+-------------------------------------------
+	タグ
+-------------------------------------------
+*/
+
+#container h1{
+	background:url(../images/common/h1-bg.gif) no-repeat 0px 0px;
+	border-bottom:1px solid #C47912;
+	padding:7px 0px 5px 12px;
+	font-size:103%;
+	letter-spacing:0.17em;
+	}
+	
+#container h2{
+	clear:both;
+	background:url(../images/common/icon-h2.gif) no-repeat 0px 0px;
+	font-size:115%;
+	padding:0px 0px 7px 40px;
+	margin:0px 0px 10px 0px;
+	border-bottom:1px solid #BDAA94;
+	letter-spacing:0.13em;
+	line-height:1.2em;
+	}
+
+h3{
+	font-size:110%;
+	}
+
+h4{
+	font-size:107%;
+	}
+
+/*	p	*/
+
+#container p{
+	font-size:1em;
+	margin-bottom:10px;
+	}
+	
+/*	a	*/
+
+a{
+	color:#71BC48;
+	text-decoration:none;
+	}
+
+a:hover{
+	text-decoration:underline;
+	}
+
+a:visited{
+	color:#60933E;
+	}
+
+/*	scrollup	*/
+
+.scrollup{
+	clear:both;
+	float:right;
+	width:140px;
+	height:20px;
+	margin:10px 0px;
+	}
+
+.scrollup a{
+	display:block;
+	width:140px;
+	height:20px;
+	text-indent:-999em;
+	overflow:hidden;
+	background:url(../images/common/scroll-up.gif)  no-repeat 0px 5px;
+	}
+
+.scrollup a:hover{
+	background:url(../images/common/scroll-up.gif)  no-repeat 0px -19px;
+	}
+
+	
+
+/*
+-------------------------------------------
+	スタイル
+-------------------------------------------
+*/
+
+/*	濃い赤	*/
+
+.color-a{
+	color:#950B07;
+	}
+
+/*	オレンジ	*/
+
+.color-b{
+	color:#950B07;
+	}
+
+/*	ベージュ（キャプション用）	*/
+
+.color-c{
+	color:#BDAA94;
+	}
+
+/*	UL list-style-a　*/
+/*	list-style-a はリストアイコンとボトムにベージュの点線がつきます。*/
+
+
+ul.list-style-a li{
+	background:url(../images/common/icon-link.gif) no-repeat 0px 6px;
+	padding:0px 0px 6px 15px;
+	margin:0px 0px 6px 0px;
+	border-bottom:1px dotted #BDAA94;
+	}
+
+/*	UL list-style-b　*/
+/*	list-style-b はリストアイコン*/
+
+
+ul.list-style-b li{
+	background:url(../images/common/icon-link.gif) no-repeat 0px 6px;
+	padding:0px 0px 3px 15px;
+	margin:0px 0px 3px 0px;
+	}
+
+/*	icon-link	*/
+
+a.icon-link,p.icon-link{
+	background:url(../images/common/icon-link.gif) no-repeat 0px 6px;
+	padding:0px 0px 6px 15px;
+	}
+
+/*	border-img-a　*/
+
+.border-img-a{
+	padding:4px;
+	margin:0px 2px 2px 2px;
+	border:1px dotted #BDAA94;
+	}
+
+/*	lineheight-L　*/
+
+.lineheight-L{
+	line-height:1.67em;
+	}
+
+
+.border-botom-a{
+	padding-bottom:3px;
+	margin-bottom:3px;
+	border-bottom:1px solid #BDAA94;
+	}
+
+
+	
+/* light green */	
+.bg-color-A{
+	background-color:#E8F0C5;
+	}
+
+/* light blue */	
+.bg-color-B{
+	background-color:#EDF7FD;
+	}
+
+/* light pink */
+.bg-color-C{
+	background-color:#FDEFF5;
+	}
+	
+/* table用 style-A */	
+	
+table.style-A td,table.style-A th{
+	border:1px solid #B8D200;
+	}
+
+/* table用 blank-table10 */	
+
+.blank-table10 th,.blank-table10 td{
+	padding:10px;
+	}
+
+
+/*
+-------------------------------------------
+	レイアウト
+-------------------------------------------
+*/
+
+.ly-left{	float:left;	}
+
+.ly-right{	float:right;	}
+
+.ly-clear{	clear:both;	}
+
+#main .inline-center{	text-align:center;	}
+
+#main .inline-right{	text-align:right;	}
+
+#main .blankP-all10{	padding:10px;	}
+
+#main .blankP-all20{	padding:20px;	}
+
+#main .blankM-all10{	margin:10px;	}
+
+#main .blankM-all20{	margin:20px;	}
+
+#main .blankM-bottom10{	margin-bottom:10px;	}
+
+#main .blankM-bottom20{	margin-bottom:20px;	}
+
+#main .blankM-bottom30{	margin-bottom:30px;	}
+
+#main .blankM-bottom40{	margin-bottom:40px;	}
+
+#main .blankM-top10{	margin-top:10px;	}
+
+#main .blankM-top20{	margin-top:20px;	}
+
+#main .blankM-top30{	margin-top:30px;	}
+
+#main .blankM-top40{	margin-top:40px;	}
+
+#main .blankM-zero{	margin:0px;	}
+
+.text-S{
+	font-size:80%;
+	line-height:1.2em;
+	padding-top:2px;
+	}
+
+.text-L{
+	font-size:110%;
+	line-height:1.3em;
+	}
+
+.text-LL{
+	font-size:115%;
+	line-height:1.25em;
+	}
+
+.text-XL{
+	font-size:130%;
+	line-height:1.2em;
+	}
+
+.dp-block{
+	display:block;
+	}
+
+object {
+    outline: medium none;
+}
+
+
+/*
+-------------------------------------------
+	clearfix
+-------------------------------------------
+*/
+
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+	}
+
+.clearfix{
+	display:inline-block;
+	}
+
+/* Hides from IE-mac \*/
+* html .clearfix{
+	height:1%;
+	}
+
+.clearfix{
+	display: block;
+	}
+
+/* End hide from IE-mac */

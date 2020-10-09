@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+table.style-A{
+	margin-bottom:30px;
+	}
+
+
+table.style-A td,table.style-A th{
+	padding:13px;
+	vertical-align:middle;
+	}
+
+table.style-A th{
+	text-align:center;
+	letter-spacing:0.4em;
+	}
+
+.level-table th{
+	width:80px;
+	}
+

@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+-------------------------------------------
+	Mainvisual
+-------------------------------------------
+*/
+
+#mainvisual{
+	clear:both;
+	width:960px;
+	height:260px;
+	overflow:hidden;
+	}
+
+/*
+-------------------------------------------
+	merit-list
+-------------------------------------------
+*/
+
+.merit-list{
+	border-bottom:1px dotted #BDAA94;
+	padding-bottom:4px;
+	margin-bottom:30px;
+	}
+
+.merit-list li h3{
+	font-size:165%;
+	padding:12px 6px 8px 0px;
+	letter-spacing:0.1em;
+	border-top:7px solid #FFFFFF;
+	}
+
+.merit-list li{
+	width:470px;
+	height:auto;
+	padding:0px 0px 7px 0px;
+	margin:7px 0px 3px 0px;	
+	border-top:1px dotted #BDAA94;
+	overflow:hidden;
+	}
+
+.merit-list li ul.list-style-a li{
+	width:445px;
+	border-style:none;
+	padding:0px 14px 7px 15px;
+	margin:0px;
+	}
+
+.study-merit{
+	background:url(../images/top/merit-study.jpg)  no-repeat right center;
+	}
+	
+.active-merit{
+	background:url(../images/top/merit-active.jpg)  no-repeat right center;
+	}
+
+.life-merit{
+	background:url(../images/top/merit-life.jpg)  no-repeat right center;
+	}
+
+/*
+-------------------------------------------
+	おしらせ
+-------------------------------------------
+*/
+
+.col-sub .list-style-a{
+	margin-bottom:30px;
+	}
+
+.list-style-a .day{
+	font-family:Arial, Helvetica, sans-serif;
+	display:block;
+	font-size:90%;
+	letter-spacing:0.09em;
+	}
+
+
+/*
+-------------------------------------------
+	ココログRSS
+-------------------------------------------
+*/
+
+#divRss{
+	margin:0px 0px 15px 0px;
+	padding:10px 0px 0px 0px;
+	}
+
+.ItemDate{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:90%;
+	letter-spacing:0.09em;
+	height:15px;
+	position:relative;
+	top:-47px;
+	left:0px;
+	z-index:1;
+	background:url(../images/common/icon-link.gif) no-repeat 0px 6px;
+	padding:0px 0px 0px 15px;
+	}
+
+.ItemTitle{
+	border-bottom:1px dotted #BDAA94;
+	margin:0px 0px 3px 0px;
+	padding:7px 0px 5px 15px;
+	}
+
+/*
+-------------------------------------------
+	バナーリスト
+-------------------------------------------
+*/
+
+.banner-list li{
+	margin-bottom:3px;
+	}

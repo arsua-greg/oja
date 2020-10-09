@@ -1,0 +1,60 @@
+* { margin: 0; padding: 0; }
+
+body { font-size: 80%; }
+
+.wrap-form {
+	width: 600px;
+	padding: 20px 5px;
+}
+
+.wrap-form dl {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding: 5px;
+	display: table;
+}
+
+.wrap-form dt {
+	width: 150px;
+	float: left;
+	color: #00375E;
+	background-color: #fff;
+	font-weight: bold;
+	font-size: 95%;
+	text-align: left;
+	padding: 5px;
+	letter-spacing: 2px;
+}
+
+.wrap-form dd {
+	width: 380px;
+	float: left;
+	color: #666;
+	background-color: #fff;
+	padding: 5px 0 5px 20px;
+	border-left: 4px solid #0c6;
+}
+
+.input-b {
+	width: 200px;
+	background-color: #efc;
+	border-left: 1px solid #9cc;
+	border-right: 2px solid #066;
+	border-top: 1px solid #9cc;
+	border-bottom: 2px solid #066;
+	margin-top: 20px;
+	padding: 5px;
+	color: #00375E;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.copy{text-align:right;}.copy a{font-size:70%;text-decoration:none;color:#ccc;background-color:#eee;}
+.hiss { color: #f90; font-size: 80%; padding-left: 10px; background-color: #fff; }
+.err { color: red; background-color: #fff; }
+.point { color: #3B6C53; background-color: #fff; }
+.align-c { text-align: center; }
+.input-s { width: 200px; }
+.input-m { width: 300px; }
+.input-l { width: 400px; }
+.inp4 { width: 80px; }
+.inp2 { width: 40px; }

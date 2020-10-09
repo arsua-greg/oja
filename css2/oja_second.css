@@ -1,0 +1,176 @@
+@charset "UTF-8";
+body {
+	background-attachment: scroll;
+	background-color: #F9F8F1;
+	background-image: url(../profile_img/oja_profile_01_r7_c1.jpg);
+	background-repeat: repeat;
+	font-family: 'メイリオ' , Meiryo, Verdana, 'ヒラギノ角ゴ Pro W3' , 'Hiragino Kaku Gothic Pro' ,Osaka, 'ＭＳ Ｐゴシック', sans-serif, Arial, 'Arial Unicode MS','SimSun', Helvetica;
+	margin: 0px;
+}
+#header {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#imagestage {
+	background-image: url(../profile_img/oja_profile_back.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	padding-top: 9px;
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #66CC00;
+	height: 363px;
+}
+#imageon {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#mainstage {
+	width: 950px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#leftstage {
+	background-color: #FFF;
+	padding: 20px;
+	float: left;
+	width: 710px;
+	margin-bottom: 30px;
+}
+#rightstage {
+	float: right;
+	width: 180px;
+	margin-bottom: 30px;
+}
+#gotop {
+	clear: both;
+	width: 950px;
+	text-align: right;
+}
+#underline {
+	background-color: #6C0;
+	height: 4px;
+	width: 100%;
+}
+#understage {
+	background-image: url(../index_img/oja_top_01_r32_c1.jpg);
+	width: 100%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	padding-bottom: 20px;
+}
+.font80 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: 150%;
+	color: #333;
+	text-align: left;
+}
+.copy01 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+	background-image: url(../index_img/arrow01.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	width: 165px;
+	padding-left: 15px;
+	margin-bottom: 15px;
+}
+#underline02 {
+	background-color: #6C0;
+	height: 1px;
+	width: 100%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+}
+.underwhite {
+	background-color: #FFF;
+	width: 100%;
+}
+#bottommenu {
+	width: 472px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#copyright {
+	font-size: 70%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+	text-align: center;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.sidemenu01 {
+	width: 180px;
+	margin-bottom: 20px;
+}
+.sidemenu02u10 {
+	width: 180px;
+	margin-bottom: 10px;
+}
+.sidemenu03 {
+	width: 180px;
+	margin-bottom: 1px;
+}
+#upline {
+	background-color: #6C0;
+	height: 4px;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	margin-bottom: 10px;
+}
+#gomi {
+	font-size: 70%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+	width: 950px;
+	padding-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#understage02 {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+a:link {
+	color: #690;
+	text-decoration: none;
+}
+a:hover {
+	color: #360;
+	text-decoration: underline;
+}
+a:visited {
+	color: #690;
+	text-decoration: none;
+}
+a:active {
+	color: #690;
+	text-decoration: none;
+}
+ul {
+	padding-left: 20px;
+}
+.fcolorgreen {
+	color: #58A03E;
+}
+.fontpink {
+	color: #C96;
+}

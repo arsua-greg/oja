@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>資料請求フォーム｜留学するなら大阪にある国籍不問の日本語学校「大阪日本語アカデミー」</title>
+	<meta name="description" content="留学するなら大阪にある国籍不問の日本語学校、大阪日本語アカデミー" />
+	<meta name="keywords" content="日本語,学校,大阪,留学,進学,スクール,語学,教室" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+	<link href="../../css/common.css" rel="stylesheet" type="text/css" />
+	<link href="../../css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="../../css/navigation.css" rel="stylesheet" type="text/css" />
+	<link href="../../css/form.css" rel="stylesheet" type="text/css" />
+	<link href="../../css/jVal.css" rel="stylesheet" type="text/css" />
+
+	<link rel="index" href="http://ojla.jp/" />
+	<link rel="canonical" href="http://ojla.jp/" />
+	<link rel="shortcut icon" type="image/x-icon" href="../../images/common/favicon.ico" />
+	
+	<script language="JavaScript" type="text/javascript" src="../../js/library/jquery-1.6.2.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="../../js/library/jVal.js"></script>
+	<script language="JavaScript" type="text/javascript" >
+	
+	<!--
+	$(function(){
+	$("#ref_form").submit(function(){
+		if ( $('#ref_form').jVal({style:'blank',padding:15,border:0,wrap:false}) )
+		  return true;
+	  return false;
+		});
+	});
+	//-->
+</script>
+
+</head>
+<body id="shiryou">
+<div id="wrapper">
+  <div id="header">
+    <div id="wrapper2">
+      <!--	Header		-->
+      <div id="header2">
+        <p class="logo" id="pagetop"><a href="http://www.oja.jp/" title="留学して進学を目指すなら大阪日本語アカデミー"><img src="../../images/common/logo.gif" width="223" height="58" title="OJA Osaka Japanese Language Academy" /></a></p>
+        <p class="caption">留学するなら大阪にある国籍不問の日本語学校<br />
+          <strong>「大阪日本語アカデミー」</strong></p>
+        <!--	luang navigation	-->
+        <ul class="luangnavigation">
+          <li><a href="http://oja.jp/" title="OJA-Japanese"><img src="../../images/common/ln-jp.gif" />Japanese</a></li>
+          <li><a href="http://oja.jp/ch/"><img src="../../images/common/ln-cn.gif" />Chinese</a></li>
+          <li><a href="http://oja.jp/en/"><img src="../../images/common/ln-us.gif" />English</a></li>
+          <li><a href="http://oja.jp/vi/"><img src="../../images/common/ln-vn.gif" />Vietnamese</a></li>
+        </ul>
+        <!--	subnavigation	-->
+        <ul class="subnavigation">
+          <li class="tel"><img src="../../images/common/header-tel.gif" alt="お電話問い合わせ番号06-6707-2227(月)～(金)AM9時～PM5時" width="304" height="36" /></li>
+          <li class="input-shiryo"><a href="index.html" title="資料請求フォーム、気軽にご請求ください。">資料請求フォーム</a></li>
+          <li class="input-contact"><a href="../reference/index.html" title="大阪日本語アカデミーにメールフォームから問い合わせる">お問い合わせメールフォーム</a></li>
+        </ul>
+      </div>
+      <!--	glovalnavigetionl	-->
+      <div id="glovalnav">
+        <ul>
+          <li class="menu01"><a href="../../index.html" title="大阪日本語アカデミー">ホーム</a></li>
+          <li class="menu02"><a href="../../school.html" title="学校案内">学校案内</a></li>
+          <li class="menu03"><a href="../../feature/index.html" title="学校の特徴">学校の特徴</a></li>
+          <li class="menu04"><a href="../../curriculum.html" title="カリキュラム">カリキュラム</a></li>
+          <li class="menu05"><a href="../../recruitment.html" title="募集要項">募集要項</a></li>
+          <li class="menu06"><a href="../../schedule.html" title="学校生活">学校生活</a></li>
+          <li class="menu07"><a href="../../access.html" title="地図・交通アクセス">交通アクセス</a></li>
+        </ul>
+      </div>
+      <!--	#container		-->
+      <div id="container">
+        <h1>資料請求フォーム</h1>
+        <!--	#Main		-->
+        <div id="main">
+          <ul class="bread">
+            <li class="here">情報の入力</li>
+            <li>情報の確認</li>
+            <li>送信完了</li>
+          </ul>
+          <p class="shiryou-dl"><a href="../../download/OJApamphlet.pdf" title="パンフレット(PDF)">OJAのパンフレットダウンロード</a></p>
+          <p class="inline-center">携帯電話の方は、必須事項を記入の上、<a href="mailto:contact@ojla.jp">contact@ojla.jp</a>に、メールをお送り下さい。</p>
+          <form method="post" action="mail.php" class="clearfix" id="ref_form">
+            <dl class="clearfix">
+              <dt><span class="must">必須</span>お名前</dt>
+              <dd>
+                <input type="text"  class="input-text-M" name="苗字" jval="{valid:function (val) { if (val.length < 1) return '苗字を入力してください'; else return ''; }}" />
+                <input type="text" class="input-text-M" name="お名前" jval="{valid:function (val) { if (val.length < 1) return '名前を入力してください'; else return ''; }}" />
+              </dd>
+              <dt>フリガナ</dt>
+              <dd>
+                <input type="text" name="苗字のフリガナ" class="input-text-M" />
+                <input type="text" name="名前のフリガナ" class="input-text-M" />
+              </dd>
+              <dt>性別</dt>
+              <dd>
+                <input name="性別" type="radio" value="男性"  id="male" />
+                <label for="male">男性</label>
+                <input name="性別" type="radio" value="女性" id="female" />
+                <label for="female">女性</label>
+              </dd>
+              <dt>年齢</dt>
+              <dd>
+                <input type="text" name="年齢" class="input-text-SS" />
+                才</dd>
+              <dt>国籍</dt>
+              <dd>
+                <input type="text" name="国籍" class="input-text-L" />
+              </dd>
+              <dt><span class="must">必須</span>住所</dt>
+              <dd>
+                <input type="text" class="input-text-XL" name="住所"
+                           jval="{valid:function (val) { if (val.length < 1) return '住所を入力してください'; else return ''; }}" />
+              </dd>
+              <dt><span class="must">必須</span>メールアドレス</dt>
+              <dd class="blankM-zero">
+                <input type="text" name="メールアドレス"  class="input-text-LL"id="mail_address" jval="{valid:/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/, message:'有効なアドレスを入力してください'}" jvalkey="{valid:/[a-zA-Z0-9._%+-@]/, cFunc:'alert', cArgs:['Email Address: '+$(this).val()]}" />
+              </dd>
+              <dd>確認のためにもう一度入力してください。<br />
+                <input type="text" name="メールアドレス" class="input-text-LL" id="mail_address_verify" jval="{valid:function (val) { if ( val != eval('$(\'#mail_address\').val()') ) return false; else return true; }, message:'二つのメールアドレスが一致していません'}" />
+              </dd>
+              <dt>電話番号</dt>
+              <dd>
+                <input type="text" name="電話番号" jvalkey="{valid:/[0-9\-]/, message:'&quot;%c&quot; はご利用になれません。数字か-を入力してください', cFunc:'$(\'#formContainer\').jVal()'}" />
+              </dd>
+              <dt>その他質問などがありましたらご記入ください。</dt>
+              <dd>
+                <textarea name="その他質問などがありましたら"></textarea>
+              </dd>
+            </dl>
+            <ul class="undernav">
+              <li>
+                <input class="reset" type="reset"  value="リセット" />
+              </li>
+              <li>
+                <input class="submit" type="submit" id="sub_check" value="確認する"  />
+              </li>
+            </ul>
+          </form>
+          <!--	#Main End		-->
+        </div>
+        <hr id="main-foot" />
+        <!--	#Container End		-->
+      </div>
+      <!--	#footer		-->
+      <div id="footer">
+        <div class="col-left">
+          <h4>お問い合わせ</h4>
+          <address>
+            <p>547-0015 大阪市平野区長吉長原西2-2-12</p>
+            <p>TEL：06-6707-2227 E-mail：<a href="mailto:contact@ojla.jp" class="icon-link">contact@ojla.jp</a></p>
+            <p>URL：http://www.ojia.jp/</p>
+          </address>
+          <h4>Contact us </h4>
+          <address>
+            <p>12-2-2 nagaharanishi nagayoshi hiranoku ,Osaka City,Osaka 547-0015 Japan</p>
+            <p>TEL：+81-6-6707-2227 E-mail：<a href="mailto:contact@ojla.jp" class="icon-link">contact@ojla.jp</a></p>
+            <p>URL：http://www.ojia.jp/</p>
+          </address>
+        </div>
+        <div class="col-right">
+          <ul class="footernav">
+            <li><a href="../../policy.html" title="プライバシーポリシー">プライバシーポリシー</a></li>
+            <li><a href="../../sitemap.html" title="サイトマップ">サイトマップ</a></li>
+          </ul>
+          <ul class="banner-list">
+            <li><a href="../../guide-around.html" title="学校周辺案内"><img src="../../images/common/footer-banner-syuhen.gif" alt="学校周辺案内" width="270" height="60" /></a></li>
+            <li><a href="../../guide-osaka.html" title="大阪の観光名所"><img src="../../images/common/footer-banner-kankou.gif" alt="大阪の観光名所" width="270" height="60" /></a></li>
+          </ul>
+        </div>
+        <p class="copyright">Copyright (c) 2012 Osaka Japanese Language Academy. All Rights Reserved.</p>
+      </div>
+      <!--	Wrapper End		-->
+    </div>
+  </div>
+</div>
+<!--	GoogleTag		-->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29849503-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

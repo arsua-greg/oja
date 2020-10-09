@@ -1,0 +1,248 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*
+-------------------------------------------
+	life-japan
+-------------------------------------------
+*/
+
+.life-japan table .text-S{
+	font-size:90%;
+	}
+
+.life-japan .table-A th,.life-japan .table-A td{
+	width:70px;
+	padding:10px 5px;
+	}
+
+.th-all{
+	width:110px!important;
+	}
+
+.td-middle{
+	width:100px!important;
+	}
+
+.life-japan .table-A td.td-long{
+	width:145px!important;
+	}
+
+.life-japan .table-B th{
+	width:200px;
+	padding:10px;
+	}
+
+.life-japan .table-B td{
+	width:120px;
+	padding:10px;
+	}
+
+
+/*
+-------------------------------------------
+	point-list
+-------------------------------------------
+*/
+
+.point-list{
+	margin:10px 0px 30px 25px;
+	}
+
+.point-list li{
+	float:left;
+	margin:0px 20px 20px 0px;
+	width:380px;
+	height:250px;
+	overflow:hidden;
+	border:1px solid #BDAA94;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	}
+
+.point-list li a{
+	display:block;
+	width:380px;
+	height:250px;
+	background-color:#FFFCD9;
+	}
+
+.point-list li a:hover {
+	background-color:#fffdea;
+	}
+
+.point-list li img{
+	-webkit-border-radius:9px 9px 0px 0px;
+	-moz-border-radius:9px 9px 0px 0px;
+	border-radius:9px 9px 0px 0px;
+	}
+
+.point-list a{
+	color:#000000;
+	text-decoration:none;
+	}
+	
+.point-list li .caption{
+	margin-left:13px;
+	padding:6px 9px;
+	border-left:3px solid #71BC48;
+	background:url(../images/feature/list-bg.gif) no-repeat 295px 61px;
+	}
+
+.point-list li a:hover .caption{
+	border-left:3px solid #FCCB00;
+	background:url(../images/feature/list-bg.gif) no-repeat 298px 61px;
+	}
+	
+.point-list li .caption h3{
+	color:#950B07;
+	height:35px;
+	margin:3px 0px 7px 0px;
+	}
+
+/*
+-------------------------------------------
+	下層ページ
+-------------------------------------------
+*/
+
+
+.feature-col{
+	border:1px solid #BDAA94;
+	background-color:#FFFFFF;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	margin-top:10px;
+	overflow:hidden;
+	}
+
+.group{
+	background-color:#FFFCD9;
+	height:115px;
+	-webkit-border-radius:9px 9px 0px 0px;
+	-moz-border-radius:9px 9px 0px 0px;
+	border-radius:9px 9px 0px 0px;
+	overflow:hidden;
+	}
+
+#wrapper .group h3{
+	background:url(../images/feature/h3-bg.gif) no-repeat 12px 12px;
+	width:125px;
+	height:90px;
+	color:#FFFFFF;
+	float:left;
+	overflow:hidden;
+	border:none;
+	text-align:center;
+	margin:0px;
+	padding:35px 0px 0px 0px;
+	line-height:1.2em;
+	letter-spacing:0.09em;
+	}
+
+#wrapper .group h3.line-two{
+	line-height:1.9em;
+	}
+
+#wrapper .group h4{
+	font-size:130%;
+	padding-top:13px;
+	height:40px;
+	margin:0px 0px 20px 0px;
+	}
+
+#wrapper .group p{
+	font-size:115%;
+	}
+
+#wrapper .group p span{
+	padding-right:15px;
+	}
+
+#wrapper .group .image{
+	float:right;
+	width:250px;
+	height:125px;
+	overflow:hidden;
+	}
+
+p strong{
+	display:block;
+	padding-bottom:10px;
+	}
+
+p .border-img-a{
+	margin:0px 12px 4px 12px;
+	}
+	
+
+/*
+-------------------------------------------
+	featurenav
+-------------------------------------------
+*/
+
+.featurenav{
+	margin:10px 0px;
+	}
+	
+.featurenav li{
+	width:200px;
+	height:60px;
+	overflow:hidden;
+	float:left;
+	margin-right:8px;
+	margin-bottom:9px;
+	border:1px solid #BDAA94;
+	}
+
+.featurenav li a{
+	display:block;
+	width:200px;
+	height:60px;
+	text-decoration:none;
+	color:#000000;
+	background-image:url(../images/feature/feature-nav-bg.jpg);
+	background-repeat:no-repeat;
+	background-color:#FFFCD9;
+	}
+
+.fn-menu01 a{	background-position:0px 0px;	}
+
+.fn-menu02 a{	background-position:0px -60px;	}
+
+.fn-menu03 a{	background-position:0px -120px;	}
+
+.fn-menu04 a{	background-position:0px -180px;	}
+
+.fn-menu05 a{	background-position:0px -240px;	}
+
+.fn-menu06 a{	background-position:0px -300px;	}
+
+.fn-menu07 a{	background-position:0px -360px;	}
+
+.fn-menu08 a{	background-position:0px -420px;	}
+
+.fn-menu09 a{	background-position:0px -480px;	}
+
+.featurenav li a span{
+	padding:3px 3px 3px 75px;
+	display:block;
+	color:#666666;
+	}
+
+.featurenav li a:hover span{
+	font-weight:bold;	
+	color:#950B07;
+	}
+	
+.featurenav li a img{
+	float:right;
+	}
+
+.featurenav li a:hover {
+	background-color:#fffdea;
+	}

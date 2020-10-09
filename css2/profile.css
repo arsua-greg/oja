@@ -1,0 +1,159 @@
+@charset "UTF-8";
+.image01 {
+	background-image: url(../profile_img/oja_profile_image03.jpg);
+	background-repeat: repeat;
+	height: 363px;
+	width: 100%;
+}
+.hyodai {
+	width: 710px;
+}
+.gaiyouspace {
+	width: 678px;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	margin-bottom: 35px;
+}
+.copy02 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 160%;
+	width: 450px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	color: #333;
+}
+
+
+
+#mainstage02 {
+	background-image: url(../profile_img/oja_profile_image04.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 363px;
+}
+#mainstage03 {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.copy03 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	text-align: left;
+	width: 400px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+.font100white {
+	font-size: 120%;
+	font-style: normal;
+	line-height: normal;
+	color: #FFF;
+	text-align: left;
+}
+.pro01 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #333;
+	width: 400px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	padding-left: 5px;
+}
+.pro03 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: 160%;
+	font-weight: bold;
+	color: #3F6B4D;
+	width: 400px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.pro02 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: normal;
+	color: #666;
+	width: 400px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+
+.font84white {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 80%;
+	font-style: normal;
+	line-height: normal;
+	color: #FFF;
+	text-align: right;
+}
+.message {
+	background-color: #F4E5BA;
+	background-image: url(../profile_img/oja_profile_image07_r47_c6.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.copy04 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	text-align: left;
+	width: 645px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+}
+.copy05 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	color: #3F6B4D;
+	text-align: left;
+	width: 645px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	font-weight: bold;
+}
+.copy06 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: 180%;
+	color: #333;
+	text-align: left;
+	width: 620px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+}

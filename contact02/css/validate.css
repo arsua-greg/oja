@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+-------------------------------------------
+	Jquery Form Validate
+-------------------------------------------*/
+.cellpadding td{padding:5px;}
+label.error {
+	margin-left: 3px;
+	width: auto;
+	display: inline;
+	color: red;
+	font-weight: bold;
+	font-size:12px;
+}
+input:focus { border: 1px dotted black; background-color:#efefef;}
+input.error,textarea.error{ border: 1px dotted red; background-color:#FFE8E8;}

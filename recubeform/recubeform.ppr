@@ -1,0 +1,9 @@
+#PHP Project
+	index.php<U>
+	lib\
+		lib.php<U>
+		setting.php<U>
+		config.php<U>
+		language.php<U>
+		temp.html<U>
+		style.css<U>

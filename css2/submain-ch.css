@@ -1,0 +1,1722 @@
+@charset "UTF-8";
+.image01 {
+	background-image: url(../profile_img/oja_profile_image03.jpg);
+	background-repeat: repeat;
+	height: 363px;
+	width: 100%;
+}
+.image02 {
+	background-image: url(../index_img/sub_b_under_01.gif);
+	background-repeat: repeat;
+	width: 100%;
+}
+
+.hyodai {
+	width: 710px;
+}
+.hyodai02 {
+	width: 670px;
+	background-color: #333;
+	background-image: url(../index_img/copy_back_bg.jpg);
+	background-repeat: no-repeat;
+	height: 44px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.hyodai03 {
+	width: 670px;
+	background-color: #333;
+	background-image: url(../index_img/copy_back_bg.jpg);
+	background-repeat: no-repeat;
+	height: 44px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+.gaiyouspace {
+	width: 678px;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	margin-bottom: 35px;
+}
+.culturespace {
+	width: 680px;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	margin-bottom: 35px;
+	background-image: url(../culture_img/back.jpg);
+	background-repeat: repeat;
+	background-position: right top;
+}
+
+.info001 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+	background-color: #EFEFEF;
+	text-align: left;
+	padding: 10px;
+	width: 686px;
+	border-left-width: 3px;
+	border-left-style: solid;
+	border-left-color: #669934;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+	background-image: url(../info_img/copy_back.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.cul001 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	color: #FFF;
+	background-color: #DBF3FF;
+	text-align: left;
+	padding: 10px;
+	width: 687px;
+	border-left-width: 3px;
+	border-left-style: solid;
+	border-left-color: #F69;
+	background-image: url(../culture_img/copy_back01.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.info002 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 180%;
+	color: #333;
+	text-align: left;
+	width: 678px;
+	margin-top: 10px;
+}
+
+
+.backupspace01 {
+	width: 680px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	margin-bottom: 35px;
+}
+.backup001 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	width: 410px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	text-align: left;
+}
+.backup003 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	text-align: left;
+	width: 410px;
+}
+.backup004 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	text-align: left;
+	width: 410px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #EEE;
+}
+
+.backup002 {
+	font-size: 100%;
+	font-style: normal;
+	line-height: 160%;
+	color: #F63;
+	text-align: left;
+	width: 410px;
+	margin-bottom: 10px;
+}
+
+
+.teacherspace {
+	width: 678px;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	margin-bottom: 20px;
+}
+.everyspace01 {
+	width: 678px;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	margin-bottom: 35px;
+}
+
+.teacherspace02 {
+	width: 678px;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+	border: 1px solid #CCC;
+}
+.teacherspace03 {
+	width: 678px;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	margin-bottom: 30px;
+	border: 1px solid #CCC;
+}
+
+
+
+.copy02 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 160%;
+	width: 450px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	color: #333;
+}
+.fontrgrrn100b {
+	font-size: 120%;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #669934;
+	text-align: left;
+}
+.font90gray {
+	font-size: 90%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	text-align: left;
+}
+.font1000gray {
+	font-size: 100%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+}
+
+
+.copy07 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 160%;
+	width: 300px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	color: #333;
+}
+
+#promainstage02 {
+	background-image: url(../profile_img/oja_profile_image09.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#promainstage02-en {
+	background-image: url(../profile_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#promainstage02-ch {
+	background-image: url(../profile_img/ch/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#culstage02 {
+	background-image: url(../culture_img/oja_cul_image001.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#culstage02-en {
+	background-image: url(../culture_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#everystage02 {
+	background-image: url(../support_img/oja_support_image001.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#everystage02-en {
+	background-image: url(../support_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#everystage02-ch {
+	background-image: url(../support_img/ch/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#japanlifestage02 {
+	background-image: url(../japan_life_img/oja_japanlife_image001.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#japanlifestage02-en {
+	background-image: url(../japan_life_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#japanlifestage02-ch {
+	background-image: url(../japan_life_img/ch/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#infostage02 {
+	background-image: url(../info_img/oja_info_image001.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#backupstage02 {
+	background-image: url(../backup_img/oja_backup_image002.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#backupstage02-en {
+	background-image: url(../backup_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#citymainstage02 {
+	background-image: url(../city_img/oja_city_image001.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#citymainstage02-en {
+	background-image: url(../city_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#citymainstage02-ch {
+	background-image: url(../city_img/ch/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}#studentmainstage02 {
+	background-image: url(../student_img/oja_student_image001.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#studentmainstage02-en {
+	background-image: url(../student_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.font90green {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	color: #669934;
+	text-align: left;
+}
+
+
+
+#accmainstage02 {
+	background-image: url(../access_img/oja_access_image006.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#accmainstage02-en {
+	background-image: url(../access_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#accmainstage02-ch {
+	background-image: url(../access_img/ch/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}#rinenmainstage02 {
+	background-image: url(../philosophy_img/oja_philosophy_image003.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#rinenmainstage02-en {
+	background-image: url(../philosophy_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#supportstage02 {
+	background-image: url(../life_support_img/oja_support_image003.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#supportstage02-en {
+	background-image: url(../life_support_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#policystage02 {
+	background-image: url(../policy_img/oja_policy_image001.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#policystage02-en {
+	background-image: url(../policy_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#contactstage02 {
+	background-image: url(../contact_img/oja_contact_image001.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#contactstage02-en01 {
+	background-image: url(../contact_img/en/contact-header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#contactstage02-en02 {
+	background-image: url(../contact_img/en/borchure-header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#teacherstage02 {
+	background-image: url(../teacher_profile_img/oja_teacher_image01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#teacherstage02-en {
+	background-image: url(../teacher_profile_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#schedulestage02 {
+	background-image: url(../schedule_img/oja_scjedule_image01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#schedulestage02-en {
+	background-image: url(../schedule_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sche001 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #C33;
+	border-bottom-color: #C33;
+	width: 678px;
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #666;
+	text-align: left;
+}
+.sche004 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #F66;
+	border-bottom-color: #F66;
+	width: 400px;
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #666;
+	text-align: left;
+}
+.sche004un {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #F66;
+	border-bottom-color: #F66;
+	width: 400px;
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #666;
+	text-align: left;
+}
+
+.sche005 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #F66;
+	width: 400px;
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #666;
+	text-align: left;
+}
+.sche006 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #A8EAA6;
+	width: 400px;
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #666;
+	text-align: left;
+}
+.sche007 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #A2C7D1;
+	width: 400px;
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #666;
+	text-align: left;
+}
+.sche008 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #C96;
+	width: 400px;
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #666;
+	text-align: left;
+}
+
+
+
+
+
+.sche002 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #C33;
+	width: 678px;
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #666;
+	text-align: left;
+}
+.sche003 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #696;
+	width: 678px;
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #666;
+	text-align: left;
+}
+
+
+
+
+
+#boshustage02 {
+	background-image: url(../recruit_img/oja_boshu_image01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#boshustage02-en {
+	background-image: url(../recruit_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#currimainstage02 {
+	background-image: url(../curriculum_img/oja_curriculum_image004.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#currimainstage02-en {
+	background-image: url(../curriculum_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#currimainstage02-ch {
+	background-image: url(../curriculum_img/ch/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}#onedaystage02 {
+	background-image: url(../oneday_img/oja_oneday_image001.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#onedaystage02-en {
+	background-image: url(../oneday_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.oneday01 {
+	width: 648px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #C9E8F7;
+	border-bottom-color: #C9E8F7;
+	background-image: url(../oneday_img/back001.gif);
+	background-repeat: repeat;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.oneday02 {
+	width: 648px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #C9E8F7;
+	background-image: url(../oneday_img/back001.gif);
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.oneday03 {
+	width: 648px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #F7CE9D;
+	background-image: url(../oneday_img/back002.gif);
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.oneday04 {
+	width: 648px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #BDF7C5;
+	background-image: url(../oneday_img/back003.gif);
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+.fontgreen90 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: 180%;
+	color: #537C2B;
+	text-align: left;
+	font-weight: bold;
+}
+
+
+
+
+#insmainstage02 {
+	background-image: url(../institution_img/oja_institution_image003.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#insmainstage02-en {
+	background-image: url(../institution_img/en/header01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#mainstage03 {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.copy03 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	text-align: left;
+	width: 400px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+.font100white {
+	font-size: 120%;
+	font-style: normal;
+	line-height: normal;
+	color: #FFF;
+	text-align: left;
+}
+.pro01 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #333;
+	width: 400px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	padding-left: 5px;
+}
+.pro01_02 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	width: 400px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	padding-left: 5px;
+}
+.font120b {
+	font-size: 100%;
+	font-style: normal;
+	line-height: 160%;
+	font-weight: bold;
+	color: #A4752A;
+	text-align: left;
+}
+.ouen01 {
+	font-size: 100%;
+	font-style: normal;
+	line-height: normal;
+	color: #FFF;
+	background-color: #669934;
+	text-align: left;
+	padding: 15px;
+	width: 680px;
+}
+
+
+
+.pro03 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: 160%;
+	font-weight: bold;
+	color: #3F6B4D;
+	width: 400px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.sup0021 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: 160%;
+	font-weight: bold;
+	color: #3F6B4D;
+	width: 400px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+
+.pro02 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: normal;
+	color: #666;
+	width: 400px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.teacher01 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 180%;
+	color: #666;
+	width: 400px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-top: 20px;
+}
+
+.sup001 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: 180%;
+	color: #333;
+	width: 400px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+
+
+.font84white {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 80%;
+	font-style: normal;
+	line-height: normal;
+	color: #FFF;
+	text-align: right;
+}
+.font80n {
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #666;
+}
+.message0001 {
+	background-color: #F4E5BA;
+	background-image: url(../profile_img/oja_profile_image07_r47_c6.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.message0002 {
+	background-color: #F4E5BA;
+	background-image: url(../profile_img/oja_profile_main_0066.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.copy04 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	text-align: left;
+	width: 645px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+}
+.copy05 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	color: #3F6B4D;
+	text-align: left;
+	width: 645px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.copy06 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: 180%;
+	color: #333;
+	text-align: left;
+	width: 620px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.map02 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	width: 678px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	padding-top: 10px;
+	text-align: left;
+}
+
+.map01 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	width: 678px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	text-align: left;
+}
+.map05 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: 180%;
+	color: #333;
+	width: 638px;
+	text-align: left;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.map04 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 180%;
+	color: #333;
+	width: 678px;
+	padding-bottom: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.corr001 {
+	background-image: url(../curriculum_img/copy_back.jpg);
+	background-repeat: repeat;
+	width: 678px;
+}
+.curr002 {
+	background-image: url(../curriculum_img/copy_back.jpg);
+	background-repeat: repeat;
+}
+.font120g {
+	font-size: 120%;
+	color: #664A41;
+	font-weight: bold;
+}
+.font80g {
+	font-size: 80%;
+	color: #666;
+	font-style: normal;
+	line-height: 160%;
+}
+
+
+.ins01 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	width: 678px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+.ins02 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #390;
+	text-align: left;
+	width: 326px;
+	margin-bottom: 5px;
+}
+.ins03 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	width: 326px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+.ns04 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	width: 678px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+
+
+.map03 {
+	padding: 5px;
+	width: 346px;
+	border: 1px dotted #CCC;
+	margin-top: 10px;
+}
+.pro04 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+	float: left;
+	height: 36px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: dotted;
+	border-left-style: dotted;
+	border-right-color: #999;
+	border-left-color: #999;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.pro05 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+	float: left;
+	height: 36px;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #999;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.pro0502 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+	float: left;
+	height: 36px;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #999;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.pro4 p{
+	text-align: left;
+	display: inline-block;
+}
+.pro5 p {
+	text-align: left;
+	display: inline-block;
+}
+.curriback001 {
+	background-image: url(../curriculum_img/copy_back.jpg);
+	background-repeat: repeat;
+	color: #936F68;
+	text-align: left;
+	width: 375px;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+.box {
+	border-radius: 20px; /* CSS3 */
+	-moz-border-radius: 20px; /* Firefox */
+	-webkit-border-radius: 20px; /* Safari,Chrome */
+	behavior: url(file:///C|/Dropbox/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/%E5%A4%A7%E9%98%AA%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC/ie_css3/PIE.htc);
+
+
+
+　/* IE */
+;
+background-color: #95C356;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	color: #FFF;
+	text-align: left;
+	font-size: 100%;
+	font-weight: bold;
+}
+.box02 {
+	border-radius: 10px; /* CSS3 */
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari,Chrome */
+	behavior: url(file:///C|/Dropbox/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/%E5%A4%A7%E9%98%AA%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC/ie_css3/PIE.htc);
+
+
+
+　/* IE */
+;
+background-color: #95C356;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	color: #FFF;
+	text-align: left;
+	font-size: 90%;
+	font-weight: bold;
+}
+.boxeve {
+	border-radius: 10px; /* CSS3 */
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari,Chrome */
+	behavior: url(file:///C|/Dropbox/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/%E5%A4%A7%E9%98%AA%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC/ie_css3/PIE.htc);
+
+
+
+
+
+
+
+
+
+　/* IE */
+;
+	background-color: #C59B5F;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	color: #FFF;
+	text-align: left;
+	font-size: 100%;
+	font-weight: bold;
+}
+.evebox01 {
+	width: 678px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+.evebox02 {
+	width: 678px;
+}
+
+
+
+.box07 {
+	border-radius: 10px; /* CSS3 */
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari,Chrome */
+	behavior: url(file:///C|/Dropbox/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/%E5%A4%A7%E9%98%AA%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC/ie_css3/PIE.htc);
+
+
+
+
+
+
+　/* IE */
+;
+	background-color: #669934;
+	color: #FFF;
+	text-align: left;
+	font-size: 100%;
+	font-weight: bold;
+	padding: 10px;
+	background-image: url(../backup_img/copy_back01.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.box08 {
+	border-radius: 10px; /* CSS3 */
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari,Chrome */
+	behavior: url(file:///C|/Dropbox/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/%E5%A4%A7%E9%98%AA%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC/ie_css3/PIE.htc);
+
+
+
+
+
+
+
+　/* IE */
+;
+	background-color: #DFF5C9;
+	text-align: left;
+	font-weight: bold;
+	padding: 10px;
+}
+.box09 {
+	border-radius: 10px; /* CSS3 */
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari,Chrome */
+	behavior: url(file:///C|/Dropbox/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/%E5%A4%A7%E9%98%AA%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC/ie_css3/PIE.htc);
+
+
+
+
+
+
+
+
+
+　/* IE */
+;
+	background-color: #F5E9C2;
+	text-align: left;
+	font-weight: bold;
+	padding: 10px;
+}
+.font84n01 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+}
+.faq01 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+	width: 678px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	padding-top: 10px;
+	text-align: left;
+}
+.faq02 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+	width: 638px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	padding-top: 10px;
+	background-image: url(../index_img/hissu.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 40px;
+	text-align: left;
+}
+.faq02-2 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+	width: 638px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	padding-top: 10px;
+	background-image: url(../index_img/hissu02.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 40px;
+	text-align: left;
+}
+.faq03 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+	width: 638px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	padding-top: 10px;
+	padding-left: 40px;
+	text-align: left;
+}
+
+
+.font84n160 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	text-align: left;
+}
+
+
+
+
+.box03 {
+	border-radius: 10px; /* CSS3 */
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari,Chrome */
+	behavior: url(file:///C|/Dropbox/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/%E5%A4%A7%E9%98%AA%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC/ie_css3/PIE.htc);
+
+
+
+　/* IE */
+; 																							background-color: #D0ED97;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	color: #360;
+	text-align: left;
+	font-size: 90%;
+}
+.box04 {
+	border-radius: 10px; /* CSS3 */
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari,Chrome */
+	behavior: url(file:///C|/Dropbox/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/%E5%A4%A7%E9%98%AA%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC/ie_css3/PIE.htc);
+
+
+
+　/* IE */
+; 																											background-color: #EDE1C2;
+	color: #333;
+	text-align: left;
+	font-size: 90%;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-image: url(../schedule_img/bb.gif);
+	background-repeat: repeat;
+}
+.box04un {
+	border-radius: 10px; /* CSS3 */
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari,Chrome */
+	behavior: url(file:///C|/Dropbox/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/%E5%A4%A7%E9%98%AA%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC/ie_css3/PIE.htc);
+
+
+
+　/* IE */
+; 																													background-color: #EDE1C2;
+	color: #333;
+	text-align: left;
+	font-size: 90%;
+	padding: 10px;
+	background-image: url(../schedule_img/bb.gif);
+}
+
+.box05 {
+	border-radius: 10px; /* CSS3 */
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari,Chrome */
+	behavior: url(file:///C|/Dropbox/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/%E5%A4%A7%E9%98%AA%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC/ie_css3/PIE.htc);
+
+　/* IE */
+; 																														background-color: #EBDEED;
+	color: #333;
+	text-align: left;
+	font-size: 90%;
+	padding: 10px;
+	background-image: url(../schedule_img/rr.gif);
+}
+.box06 {
+	border-radius: 10px; /* CSS3 */
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari,Chrome */
+	behavior: url(file:///C|/Dropbox/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/%E5%A4%A7%E9%98%AA%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC/ie_css3/PIE.htc);
+
+
+
+
+
+　/* IE */
+; 																																		background-color: #FFF;
+	color: #333;
+	text-align: left;
+	font-size: 90%;
+	font-style: normal;
+	line-height: 160%;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+.fontcolorpink {
+	color: #C66;
+}
+
+.supshousai {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	color: #669934;
+	text-align: left;
+	background-image: url(../life_support_img/arrow_01.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+}
+.sup002 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+	width: 212px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.sup003 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #666;
+	text-align: left;
+	width: 212px;
+}
+.font90ng {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+}
+.boshu01 {
+	font-size: 100%;
+	font-style: normal;
+	line-height: normal;
+	color: #669934;
+	background-image: url(../recruit_img/arrow_01.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: left;
+	width: 658px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+.boshu02 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 160%;
+	color: #666;
+	width: 658px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	margin-left: 20px;
+}
+.boshu03 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 160%;
+	color: #666;
+	width: 658px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	margin-left: 20px;
+}
+.boshu04 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: 160%;
+	color: #666;
+	width: 658px;
+	padding-left: 20px;
+}
+.uecopy {
+	font-size: 120%;
+	font-style: normal;
+	line-height: 160%;
+	color: #669934;
+	width: 710px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+.uecopysub {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 160%;
+	color: #333;
+	width: 710px;
+	margin-bottom: 35px;
+}
+.font90white {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	color: #FFF;
+	text-align: left;
+}
+.font90black {
+	font-size: 90%;
+	font-style: normal;
+	line-height: 160px;
+	color: #333;
+	text-align: left;
+}
+.hyodai02 p {
+	text-align: left;
+	display: inline-block;
+	color: #FFF;
+	font-weight: bold;
+}
+.tomail {
+	font-size: 80%;
+	font-style: normal;
+	line-height: normal;
+	color: #333;
+	background-color: #D2EBA8;
+	padding: 10px;
+	margin-right: 10px;
+	border: 1px solid #999;
+	text-align: center;
+	float: left;
+}
+.tomail02 {
+	font-size: 80%;
+	font-style: normal;
+	line-height: normal;
+	color: #999;
+	background-color: #E6E6E6;
+	padding: 10px;
+	margin-right: 10px;
+	border: 1px solid #999;
+	margin-left: 10px;
+	text-align: center;
+	float: left;
+}
+.policy01 {
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	color: #3C6439;
+	width: 658px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	text-align: left;
+	background-image: url(../policy_img/arrow_01.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.policy02 {
+	font-size: 84%;
+	font-style: normal;
+	line-height: 180%;
+	color: #666;
+	text-align: left;
+	width: 678px;
+	margin-bottom: 30px;
+}
+.line01 {
+	padding: 10px;
+	width: 654px;
+	border: 2px solid #669934;
+	margin-top: 25px;
+	background-color: #FFC;
+}

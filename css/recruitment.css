@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+
+dl.bosyu-list{	margin:10px 0px;	}
+	
+dl.bosyu-list dt{
+	width:100px;
+	float:left;
+	clear:left;
+	margin-bottom:5px;
+	}
+
+dl.bosyu-list dd{
+	width:720px;
+	float:right;
+	margin-bottom:5px;
+	}
+	
+table.style-A{	margin:13px 0px;	}
+
+table.style-A th,table.style-A td{
+	padding:13px;
+	vertical-align:middle;
+	}
+
+table.style-A td{	text-align:center;	}
+
+table.style-A th.bg-color-B{
+	width:105px;
+	text-align:center;
+	letter-spacing:0.2em;
+	}
+
+.col2{	width:237px!important;	}
+
+.color-thtitleA{	background-color:#FDEFF5;	}
+	
+.color-thtitleB{	background-color:#FDECE3;	}
+
+.care-list{	margin-bottom:30px;	}
+
+.care-list li{
+	font-size:0.85em;
+	margin-bottom:3px;
+	}
+	
+.dl-all{
+	float:left;
+	width:240px;
+	height:208px;
+	margin-bottom:14px;
+	}
+
+.dl-all a{
+	display:block;
+	width:240px;
+	height:208px;
+	text-indent:-9999em;
+	overflow:hidden;
+	background:url(../images/recruit/input-dlall.jpg) no-repeat 0px 0px;
+	}
+
+.dl-all a:hover {
+	background:url(../images/recruit/input-dlall.jpg) no-repeat 0px -209px;
+	}
+
+.dl-col{
+	float:right;
+	width:560px;
+	padding:10px 20px;
+	}
+
+.readerdl-col{
+	clear:both;
+	background-color:#F2F2F2;
+	padding:10px;
+	margin:10px 10px 30px 10px;
+	}
+	
+.dl-list{
+	margin:10px;
+	}
+
+.dl-list li{
+	margin-bottom:7px;
+	background:url(../images/common/icon-link.gif) no-repeat 0px 5px;
+	padding-left:15px;
+	}
+
+.dl-list li span{
+	padding-left:10px;
+	}
+
+.dl-list li a{
+	background:url(../images/recruit/icon-dl.gif) no-repeat 0px 2px;
+	padding-left:80px;
+	}
+
+.dl-list li a:hover{
+	background:url(../images/recruit/icon-dl.gif) no-repeat 0px -24px;
+	padding-left:80px;
+	}
+	
+.week-table{	margin-bottom:30px!important;	}
+
+.week-table th{
+	width:140px;
+	text-align:center;
+	letter-spacing:0.2em;
+	}
+	
+.step-list{	margin:13px 0px 30px 0px;	}
+
+.step-list li{
+	height:28px;
+	padding:12px 18px 40px 18px;
+	background:url(../images/recruit/top-step-bg.jpg) no-repeat 0px 0px;
+	overflow:hidden;
+	}
+
+.step-list li.last{
+	background:url(../images/recruit/top-step-last-bg.jpg) no-repeat 0px 0px;
+	height:28px;
+	padding:12px 18px 10px 18px;
+	overflow:hidden;
+	}
+
+.step-list li span{
+	color:#005B94;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	width:35px;
+	height:28px;
+	display:block;
+	float:left;
+	font-size:1.65em;
+	overflow:hidden;
+	}
+
+.step-list li strong{
+	color:#005B94;
+	font-weight:bold;
+	width:190px;
+	height:28px;
+	display:block;
+	float:left;
+	overflow:hidden;
+	}

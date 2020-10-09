@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="CSVExport.cgi" server="ftp10.gmoserver.jp" local="132441896231352555" remote="130272732000000000" Dst="0" />
+<file name="CSVExportTemplate.csv.cgi" server="ftp10.gmoserver.jp" local="132441896231542054" remote="130272732000000000" Dst="0" />
+<file name="HTMLMailTemplate.html.cgi" server="ftp10.gmoserver.jp" local="132441896232539386" remote="130272732000000000" Dst="0" />
+<file name="HTMLMail.cgi" server="ftp10.gmoserver.jp" local="132441896232718914" remote="130272732000000000" Dst="0" />
+<file name="CustomSubject.cgi" server="ftp10.gmoserver.jp" local="132441896232898498" remote="130272732000000000" Dst="0" />
+<file name="IPLogs.cgi" server="ftp10.gmoserver.jp" local="132441896233317295" remote="130272732000000000" Dst="0" />
+<file name="Items.tsv" server="ftp10.gmoserver.jp" local="132441896233686301" remote="130272732000000000" Dst="0" />
+<file name="Items.xls" server="ftp10.gmoserver.jp" local="132441896234125550" remote="130272732000000000" Dst="0" />
+<file name="SMTP.cgi" server="ftp10.gmoserver.jp" local="132441896242615956" remote="130272732000000000" Dst="0" />
+<file name="MultiConfig.cgi" server="ftp10.gmoserver.jp" local="132441896242795459" remote="130272732000000000" Dst="0" />
+<file name="PayPal.cgi" server="ftp10.gmoserver.jp" local="132441896242995032" remote="130272732000000000" Dst="0" />
+<file name="SQLExport.cgi" server="ftp10.gmoserver.jp" local="132441896243463683" remote="130272732000000000" Dst="0" />
+<file name="SQLExportTemplate.sql.cgi" server="ftp10.gmoserver.jp" local="132441896243722995" remote="130272732000000000" Dst="0" />
+<file name="cart.cgi" server="ftp10.gmoserver.jp" local="132441896243912653" remote="130272732000000000" Dst="0" />
+<file name="config.js" server="ftp10.gmoserver.jp" local="132441896244381232" remote="130272732000000000" Dst="0" />
+<file name="iCal.cgi" server="ftp10.gmoserver.jp" local="132441896244589407" remote="130272732000000000" Dst="0" />
+<file name="lang.en.cgi" server="ftp10.gmoserver.jp" local="132441896244849021" remote="130272732000000000" Dst="0" />
+<file name="lang.en.js" server="ftp10.gmoserver.jp" local="132441896245098434" remote="130272732000000000" Dst="0" />
+<file name="lang.ja.cgi" server="ftp10.gmoserver.jp" local="132441896245337784" remote="130272732000000000" Dst="0" />
+<file name="lang.ja.js" server="ftp10.gmoserver.jp" local="132441896245587110" remote="130272732000000000" Dst="0" />
+<file name="vCard.cgi" server="ftp10.gmoserver.jp" local="132441896245846421" remote="130272732000000000" Dst="0" />
+<file name="vCardTemplate.vcf.cgi" server="ftp10.gmoserver.jp" local="132441896246086034" remote="130272732000000000" Dst="0" />
+</dwsync>

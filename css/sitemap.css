@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+dl.site-list{
+	width:400px;
+	float:left;
+	margin-right:20px;
+	}
+
+dl.site-list dt{
+	background:url(../images/common/icon-h2.gif) no-repeat 0px 0px;
+	height:30px;
+	padding-left:40px;
+	margin:20px 0px 7px 0px;
+	font-size:1.15em;
+	line-height:1.5em;
+	font-weight:bold;
+	border-bottom:1px solid #BDAA94;
+}
+
+dl.site-list dt a{
+	text-decoration:none;
+	display:block;
+	}
+
+dl.site-list dt a:hover,dl.site-list dd a:hover {
+	color:#7E9E2C;
+	}
+
+dl.site-list dd{
+	padding-left:0px;
+	margin:2px 0px 2px 40px;
+	}
+
+dl.site-list dd a{
+	color:#4C4747;
+	text-decoration:none;
+}
