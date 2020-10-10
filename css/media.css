@@ -48,7 +48,7 @@
 
     .com-logo img {
       width: 140px;
-      height: auto
+      height: auto;
     }
 
     .contact {
@@ -71,11 +71,11 @@
     }
 
     .m-d-n {
-      display: none
+      display: none;
     }
 
     .rightstage {
-      display: none
+      display: none;
     }
 
 
@@ -160,7 +160,7 @@
 
     .saport table img {
       width: 100% !important;
-      height: auto !important
+      height: auto !important;
     }
 
     .index-fb-embedded {
@@ -211,7 +211,7 @@
     }
 
     .h-auto {
-      height: auto !important
+      height: auto !important;
     }
 
     .p-0 {
@@ -223,7 +223,7 @@
     }
 
     .f-none {
-      float: none !important
+      float: none !important;
     }
 
     .d-block {
@@ -251,11 +251,11 @@
     }
 
     .copy01 {
-      width: 100% !important
+      width: 100% !important;
     }
 
     .staff-mem {
-      padding: 20px
+      padding: 20px;
     }
 
     .footer-logo {
@@ -264,11 +264,11 @@
 
     #gomi {
       padding-left: 20px;
-      width: auto !important
+      width: auto !important;
     }
 
     #header .contact-num {
-      display: none
+      display: none;
     }
 
     #header .languages {
@@ -277,11 +277,11 @@
     }
 
     #header .contact-us {
-      display: block
+      display: block;
     }
 
     .hyodai {
-      width: auto !important
+      width: auto !important;
     }
 
     .hyodai img {
@@ -334,12 +334,12 @@
     #bottomstage table,
     .culturespace table,
     .backupspace01 table {
-      width: 100%
+      width: 100%;
     }
 
     #mainstage03 table img, .culturespace table img {
       width: 100%;
-      height: auto
+      height: auto;
     }
 
     #leftstage {
@@ -349,11 +349,11 @@
 
     .map03 iframe,
     .gaiyouspace iframe {
-      width: 100% !important
+      width: 100% !important;
     }
 
     .boxeve {
-      font-size: 14px
+      font-size: 14px;
     }
 
     .evebox01 td,
@@ -377,6 +377,9 @@
 
   /*Mobile View*/
  @media only screen and (max-width: 376px) {
+  #bottommenu,.copy02,.copy03,.pro01,.pro02{
+    width:100% !important;
+  }
   .contents01, .contents02, .contents03, .contents04 {
     width: 43%!important;
   }
@@ -384,10 +387,10 @@
     width: 100%;
   }
   .staff-mem > td {
-    display: block!important
+    display: block!important;
   }
   .staff-members {
-    width:  100%!important
+    width:  100%!important;
   }
   .staff-mem table {
     margin-left:0!important;
@@ -419,7 +422,7 @@
     }
 
     .navigation {
-      display: block
+      display: block;
     }
   }
 
@@ -431,6 +434,6 @@
     }
 
     .navigation {
-      display: block
+      display: block;
     }
   }
