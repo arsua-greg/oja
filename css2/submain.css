@@ -35,11 +35,8 @@
 
 
 .gaiyouspace {
-	width: 678px;
-	padding-top: 20px;
-	padding-right: 15px;
-	padding-bottom: 15px;
-	padding-left: 15px;
+	width: 100%;
+	padding:20px 0px ;
 	border-right-width: 1px;
 	border-bottom-width: 1px;
 	border-left-width: 1px;
@@ -225,8 +222,9 @@
 	font-style: normal;
 	line-height: 160%;
 	width: 450px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:5px;
 	border-bottom-width: 1px;
 	border-bottom-style: dotted;
 	border-bottom-color: #CCC;
