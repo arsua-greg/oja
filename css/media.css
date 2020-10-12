@@ -183,6 +183,7 @@
     #copyright,
     #bottomstage,
     #mainstage03,
+    #bottommenu,
     .understage,
     .ins02,
     .ins03,
@@ -192,6 +193,9 @@
     }
 
     #bottomcontory a img {
+      width: calc(90%/4) !important;
+    }
+    #bottommenu a img {
       width: calc(90%/4) !important;
     }
 
