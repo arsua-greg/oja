@@ -43,15 +43,15 @@ body{
 	overflow:hidden;
 	width:840px;
 	padding:18px 30px 0px 30px;
-	/padding-bottom:5px;	
-	/border-bottom:1px solid #e0e0e0;
+	padding-bottom:5px;	
+	border-bottom:1px solid #e0e0e0;
 	}
 
 hr#main-foot{
 	background:url(../images/common/main-foot-bg.gif) no-repeat bottom;
 	height:16px;
-	/height:1px;
-	/border-bottom:1px solid #faf7e1;
+	height:1px;
+	border-bottom:1px solid #faf7e1;
 	}
 
 #footer{
