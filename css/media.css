@@ -192,8 +192,11 @@
       width: auto !important;
     }
 
-    #bottomcontory a img {
+    /* #bottomcontory a img {
       width: calc(90%/4) !important;
+    }   */
+    #bottomwhite{
+      text-align:center;
     }
     #bottommenu a img {
       width: calc(90%/4) !important;
@@ -455,6 +458,9 @@
   }
   }
   @media only screen and (max-width: 599px) {
+    #bottommenu,.copy02,.copy03,.pro01,.pro02{
+      width:100% !important;
+    }
     #header .contact-us {
       width: 75%;
     }
