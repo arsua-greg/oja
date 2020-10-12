@@ -437,3 +437,25 @@
       display: block;
     }
   }
+
+  .tuition-font {
+    font-size: 60% !important;
+  }
+
+  .recruitment02_en-pdf {
+    width: 100px !important;
+    height: 35px !important;
+  }
+
+  .entrace_font-en {
+    font-size: 60%;
+    line-height: 180%;
+  }
+
+  #bottommenu-en {
+    width: 375px !important;
+  }
+
+  .bottommenu_en-img {
+    width: 85px !important;
+  }
