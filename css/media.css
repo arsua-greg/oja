@@ -452,7 +452,7 @@
   }
   @media only screen and (max-width: 599px) {
     #header .contact-us {
-      width: 75%;
+      width: 35%;
     }
     .fb-like,.inlineBlock._2tga._89n_._8j9v {
       display:none !important;
