@@ -183,6 +183,7 @@
     #copyright,
     #bottomstage,
     #mainstage03,
+    #bottommenu,
     .understage,
     .ins02,
     .ins03,
@@ -192,6 +193,9 @@
     }
 
     #bottomcontory a img {
+      width: calc(90%/4) !important;
+    }
+    #bottommenu a img {
       width: calc(90%/4) !important;
     }
 
@@ -244,6 +248,10 @@
 
     .m-top-20 {
       margin-top: 20px;
+    }
+
+    .m-bottom-40 {
+      margin-bottom: 40px;
     }
 
     .t-center {
@@ -378,11 +386,20 @@
       width: auto !important;
     }
 
-    .teacher_en-div{
+    .teacher_profile-div{
       width: auto !important;
     }
 
-    .teacher_en-img {
+    .teacher_profile-img {
+      height: 115px !important;
+      width: 114px !important;
+    }
+
+    .teacher_profile-div {
+      width: auto !important;
+    }
+
+    .teacher_profile-img {
       height: 115px !important;
       width: 114px !important;
     }
@@ -441,11 +458,11 @@
     width: 85px !important;
   }
 
-  .teacher_en-div{
+  .teacher_profile-div{
     width: auto !important;
   }
 
-  .teacher_en-img {
+  .teacher_profile-img {
     height: 78px !important;
     width: 73px !important;
   }
@@ -487,11 +504,11 @@
       width: 85px !important;
     }
 
-    .teacher_en-div{
+    .teacher_profile-div{
       width: auto !important;
     }
 
-    .teacher_en-img {
+    .teacher_profile-img {
       height: 78px !important;
       width: 73px !important;
     }
@@ -500,11 +517,11 @@
       width: auto !important;
     }
 
-    .teacher_en-table02 {
+    .teacher_profile-table02 {
       width: 200px !important;
     }
 
-    .teacher_en-profile {
+    .teacher_profile-profile {
       width: auto !important;
     }
   }
@@ -542,11 +559,11 @@
       width: 85px !important;
     }
 
-    .teacher_en-div{
+    .teacher_profile-div{
       width: auto !important;
     }
 
-    .teacher_en-img {
+    .teacher_profile-img {
       height: 142px !important;
       width: 112px !important;
     }
@@ -563,7 +580,7 @@
       display: block;
     }
 
-    .teacher_en-img {
+    .teacher_profile-img {
       height: 210px !important;
       width: 219px !important;
     }

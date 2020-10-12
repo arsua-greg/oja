@@ -45,13 +45,24 @@
 </script>
 </head>
 
-<body onload="setupZoom();MM_preloadImages('index_img/oja_top_ov_r1_c18.jpg','index_img/oja_top_ov_r1_c26.jpg','index_img/oja_top_ov_r7_c26.jpg','index_img/oja_top_ov_r16_c26.jpg','index_img/oja_top_ov_r20_c26.jpg','index_img/shisetu_ov.jpg','index_img/oja_top_ov_r24_c26.jpg','index_img/oja_top_ov_r27_c26.jpg','index_img/oja_top_ov_r34_c26.jpg','index_img/oja_top_ov_r37_c26.jpg','index_img/oja_top_ov_r46_c26.jpg','index_img/oja_top_ov_r51_c26.jpg','index_img/oja_top_ov_r54_c26.jpg','index_img/city_02.jpg','index_img/oneday_04.jpg','index_img/student_02.jpg','index_img/teacher_02.jpg','index_img/supporter_02.jpg','left_navi_img/home_02.jpg','left_navi_img/japanese-culture_02.jpg','left_navi_img/message-a_02.jpg','left_navi_img/schedule_02.jpg','second_img/glnavi-profile_on.jpg','second_img/glnavi-facilities_on.jpg','second_img/glnavi-curriculum_on.jpg','second_img/glnavi-lifesupport_on.jpg','second_img/glnavi-recruitment_on.jpg','second_img/glnavi-pamphlet_on.jpg')">
-<a name="top" id="top"></a>
-<div id="header">
- <a href="#" id="back-to-top" title="Back to top"><i class="fa fa-angle-up"></i></a>
-  <div class="contact-us">お電話でのお問い合わせ月~金 9:00AM  ~ 5:00PM 
-    <span class="contact-us-num">06-6707-2227</span>
-  </div>
+<body onload="MM_preloadImages('index_img/oja_top_ov_r1_c18.jpg','index_img/oja_top_ov_r1_c26.jpg','index_img/oja_top_ov_r7_c26.jpg','index_img/oja_top_ov_r16_c26.jpg','index_img/oja_top_ov_r20_c26.jpg','index_img/shisetu_ov.jpg','index_img/oja_top_ov_r24_c26.jpg','index_img/oja_top_ov_r27_c26.jpg','index_img/oja_top_ov_r34_c26.jpg','index_img/oja_top_ov_r37_c26.jpg','index_img/oja_top_ov_r46_c26.jpg','index_img/oja_top_ov_r51_c26.jpg','index_img/oja_top_ov_r54_c26.jpg','index_img/city_02.jpg','index_img/oneday_04.jpg','index_img/student_02.jpg','index_img/teacher_02.jpg','index_img/supporter_02.jpg','left_navi_img/home_02.jpg','left_navi_img/japanese-culture_02.jpg','left_navi_img/message-a_02.jpg','left_navi_img/schedule_02.jpg','second_img/glnavi-profile_on.jpg','second_img/glnavi-facilities_on.jpg','second_img/glnavi-curriculum_on.jpg','second_img/glnavi-lifesupport_on.jpg','second_img/glnavi-recruitment_on.jpg','second_img/glnavi-pamphlet_on.jpg')">
+  <div id="fb-root"></div>
+  <script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  
+  <div id="header">
+    <a href="#" id="back-to-top" title="Back to top"><i class="fa fa-angle-up"></i></a>
+   <div class="contact-us">お電話でのお問い合わせ月~金 9:00AM  ~ 5:00PM 
+     <span class="contact-us-num">06-6707-2227</span>
+   </div>
   <table width="950"  border="0" cellspacing="0" cellpadding="0">
     <tr>
       <td width="290" class="top-heading com-logo" align="left" valign="top"><a href="index.html"><img src="second_img/header_logo.jpg" alt="大阪日本語アカデミー" width="193" height="107" border="0" /></a></td>
@@ -169,10 +180,10 @@
     <img src="city_img/city_r2_c1.jpg" class="w-100 h-auto" alt="お買い物" width="710" height="980" />
     <img src="city_img/city_r3_c1.jpg" class="w-100 h-auto" alt="飲食店" width="710" height="547" />
     <img src="city_img/city_r4_c1.jpg" class="w-100 h-auto" alt="レンタルDVD・CD" width="710" height="425" /><!-- InstanceEndEditable --></div>
-  <div id="gotop"><a href="#top"><img src="index_img/oja_top_01_r30_c30.jpg" alt="Page Top" width="90" height="30" border="0" /></a></div>
+  <!-- <div id="gotop"><a href="#top"><img src="index_img/oja_top_01_r30_c30.jpg" alt="Page Top" width="90" height="30" border="0" /></a></div> -->
 </div>
 <div id="underline"><img src="index_img/no_image.gif" width="10" height="4" /></div>
-<div id="understage">
+<div class="understage">
   <div id="understage02">
     <table width="950" border="0" cellspacing="0" cellpadding="0">
       <tr>
@@ -180,31 +191,38 @@
         <td width="181" class="m-d-n"><a href="http://oja.jp/contact01/reference.html"><img src="second_img/header_reference.jpg" alt="お問い合わせ" name="Image41" width="180" height="72" border="0" id="Image41" onmouseover="MM_swapImage('Image41','','index_img/oja_top_ov_r1_c18.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
         <td width="180" class="m-d-n"><a href="http://oja.jp/contact02/shiryou.html"><img src="second_img/header_pamphlet.jpg" alt="資料請求" name="Image42" width="180" height="72" border="0" id="Image42" onmouseover="MM_swapImage('Image42','','index_img/oja_top_ov_r1_c26.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
       </tr>
-      <tr>
+      <!-- <tr>
         <td colspan="3">&nbsp;</td>
-      </tr>
+      </tr> -->
     </table>
     <table width="950" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td width="589" class="w-auto d-block" align="left" valign="top"><table width="570" border="0" cellspacing="0" cellpadding="0">
+        <td colspan="2"><img src="index_img/no_image.gif" width="2" height="35" /></td>
+      </tr>
+      <tr>
+        <td width="589" class="w-auto d-block" align="left" valign="top">
+          <table width="570" border="0" cellspacing="0" cellpadding="0">
           <tr>
-            <td width="190" valign="top"><div class="copy01"> <a href="index.html">ホーム</a></div>
+            <td width="190" valign="top">
+              <div class="copy01"> <a href="index.html">ホーム</a></div>
               <div class="copy01"> <a href="profile.html">学校案内</a></div>
               <div class="copy01"> <a href="school-institution.html">学校施設</a></div>
-<div class="copy01"> <a href="curriculum.html">カリキュラム</a></div>
+              <div class="copy01"> <a href="curriculum.html">カリキュラム</a></div>
               <div class="copy01"> <a href="recruit.html">募集案内</a></div>
               <div class="copy01"> <a href="life-support.html">生活サポート</a></div>
               <div class="copy01"><a href="one-day.html">学生の１日</a></div>
               <div class="copy01"><a href="student.html">学生紹介</a></div></td>
-            <td width="190" valign="top"><div class="copy01"> <a href="teache-profile.html">講師紹介</a></div>
-<div class="copy01"> <a href="schedule.html">年間スケジュール</a></div>
-<div class="copy01"> <a href="access.html">地図・アクセス</a></div>
-<div class="copy01"> <a href="city.html">周辺案内</a></div>
-<div class="copy01"> <a href="profile.html#riji">理事長メッセージ</a></div>
-<div class="copy01"> <a href="http://oja.jp/contact02/shiryou.html">資料請求</a></div>
+            <td width="190" valign="top">
+              <div class="copy01"> <a href="teache-profile.html">講師紹介</a></div>
+              <div class="copy01"> <a href="schedule.html">年間スケジュール</a></div>
+              <div class="copy01"> <a href="access.html">地図・アクセス</a></div>
+              <div class="copy01"> <a href="city.html">周辺案内</a></div>
+              <div class="copy01"> <a href="profile.html#riji">理事長メッセージ</a></div>
+              <div class="copy01"> <a href="http://oja.jp/contact02/shiryou.html">資料請求</a></div>
               <div class="copy01"> <a href="http://oja.jp/contact01/reference.html">お問い合わせ</a></div>
               <div class="copy01"> <a href="suppoter.html">OJAサポーター</a></div></td>
-            <td width="190" valign="top"><div class="copy01"> <a href="information.html">OJAからのお知らせ</a></div>
+            <td width="190" valign="top">
+              <div class="copy01"> <a href="information.html">OJAからのお知らせ</a></div>
               <div class="copy01"> <a href="japanese-culture.html">日本文化の体験</a></div>
               <div class="copy01"> <a href="policy.html">プライバシーポリシー</a></div>
               <div class="copy01"> <a href="http://ojla.cocolog-nifty.com/blog/" target="_blank">ブログ「ココログ」</a></div>
@@ -212,26 +230,35 @@
               <div class="copy01"> <a href="assessment.html">自己点検・自己評価報告書</a></div></td>
             </tr>
         </table></td>
-        <td width="361" class="w-auto d-block t-center" align="left" valign="top"><span class="font80"><strong>お問い合わせ</strong><br />
-547-0015 大阪市平野区長吉長原西2-2-12<br />
-TEL：06-6707-2227<br />
-E-mail：<a href="mailto:contact@oja.jp">contact@oja.jp</a><br />
-URL：<a href="http://www.oja.jp">http://www.oja.jp</a><br />
-<br />
-<strong>Contact us</strong><br />
-2-2-12, Nagayoshinagaharanishi, Hirano-ku ,Osaka City, Osaka, Japan 547-0015<br />
-TEL：+81-6-6707-2227<br />
-E-mail：<a href="mailto:contact@oja.jp">contact@oja.jp</a><br />
-URL：<a href="http://www.oja.jp">http://www.oja.jp</a></span></td>
+        <td width="282" class="font80 u-d-n-sp w-auto d-block t-center" valign="top">
+          <strong>お問い合わせ</strong><br />
+          547-0015 大阪市平野区長吉長原西2-2-12<br />
+          TEL：06-6707-2227<br />
+          E-mail：<a href="mailto:contact@oja.jp">contact@oja.jp</a><br />
+          URL：<a href="http://www.oja.jp">http://www.oja.jp</a><br />
+          <br />
+          <strong>Contact us</strong><br />
+          2-2-12, Nagayoshinagaharanishi, Hirano-ku ,Osaka City, Osaka, Japan 547-0015<br />
+          TEL：+81-6-6707-2227<br />
+          E-mail：<a href="mailto:contact@oja.jp">contact@oja.jp</a><br />
+          URL：<a href="http://www.oja.jp">http://www.oja.jp</a></span></td>
       </tr>
     </table>
   </div>
 </div>
 <div id="underline02"><img src="index_img/no_image.gif" width="10" height="1" /></div>
 <div class="underwhite">
-  <div id="bottommenu"><img src="index_img/footer_vi.jpg" alt="Vietnamese" width="110" height="41" border="0" /></a><a href="index-ch.html"><img src="index_img/footer_ch.jpg" alt="chinese" width="91" height="41" border="0" /></a><a href="index-en.html"><img src="index_img/footer_en.jpg" alt="English" width="92" height="41" border="0" /></a><a href="index.html"><img src="index_img/footer_jp_on.jpg" alt="Japanese" width="91" height="41" border="0" /></a></div>
+  <div id="bottommenu">
+    <a href="index-vi.html"><img src="index_img/footer_vi.jpg" alt="Vietnamese" width="110" height="41" border="0" /></a>
+    <a href="index-ch.html"><img src="index_img/footer_ch.jpg" alt="chinese" width="91" height="41" border="0" /></a>
+    <a href="index-en.html"><img src="index_img/footer_en.jpg" alt="English" width="92" height="41" border="0" /></a>
+    <a href="index.html"><img src="index_img/footer_jp_on.jpg" alt="Japanese" width="91" height="41" border="0" /></a>
+  </div>
 </div>
 <div id="copyright">（Ｃ）2013 OSAKA JAPANESE LANGUAGE ACADEMY. All Rights Reserved.</div>
+<script type="text/javascript">
+  swfobject.registerObject("FlashID");
+</script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
