@@ -262,6 +262,14 @@
       text-align: center !important;
     }
 
+    .flex-d-c {
+      flex-direction: column;
+    }
+    
+    .flex-d-r {
+      flex-direction: row;
+    }
+
     .copy01 {
       width: auto !important;
     }
@@ -390,19 +398,6 @@
       width: auto !important;
     }
 
-    .teacher_profile-div{
-      width: auto !important;
-    }
-
-    .teacher_profile-img {
-      height: 115px !important;
-      width: 114px !important;
-    }
-
-    .teacher_profile-div {
-      width: auto !important;
-    }
-
     .student_life-img {
       height: 232px !important;
       width: 221px !important;
@@ -462,15 +457,6 @@
     width: 85px !important;
   }
 
-  .teacher_profile-div{
-    width: auto !important;
-  }
-
-  .teacher_profile-img {
-    height: 78px !important;
-    width: 73px !important;
-  }
-
   .student_life-img {
     height: 181px !important;
     width: 130px !important;
@@ -527,24 +513,7 @@
       width: 85px !important;
     }
 
-    .teacher_profile-div{
-      width: auto !important;
-    }
-
-    .teacher_profile-img {
-      height: 78px !important;
-      width: 73px !important;
-    }
-
     .teacher01 {
-      width: auto !important;
-    }
-
-    .teacher_profile-table02 {
-      width: 200px !important;
-    }
-
-    .teacher_profile-profile {
       width: auto !important;
     }
 
@@ -597,15 +566,6 @@
       width: 85px !important;
     }
 
-    .teacher_profile-div{
-      width: auto !important;
-    }
-
-    .teacher_profile-img {
-      height: 142px !important;
-      width: 112px !important;
-    }
-
     .student_life-profile-img {
       height: auto ;
       width: 125px ;
@@ -621,10 +581,5 @@
 
     .navigation {
       display: block;
-    }
-
-    .teacher_profile-img {
-      height: 210px !important;
-      width: 219px !important;
     }
   }
