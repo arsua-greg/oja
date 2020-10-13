@@ -7,6 +7,9 @@
   .u-d-t-c {
     text-align: center !important;
   }
+  .u-d-t-j{
+    text-align: justify !important;
+  }
 
   /*Tablet View*/
   @media only screen and (max-width: 769px) {
@@ -302,9 +305,9 @@
       z-index: 100;
     }
 
-    .hyodai {
+    /* .hyodai {
       width: auto !important;
-    }
+    } */
 
     .hyodai img {
       width: 100% !important;
@@ -479,6 +482,9 @@
   }
   }
   @media only screen and (max-width: 599px) {
+    .u-d-n-sp01{
+      display:none;
+    }
     #bottommenu,.copy02,.copy03,.pro01,.pro02{
       width:100% !important;
     }
@@ -590,5 +596,10 @@
 
     .navigation {
       display: block;
+    }
+
+    .teacher_en-img {
+      height: 210px !important;
+      width: 219px !important;
     }
   }
