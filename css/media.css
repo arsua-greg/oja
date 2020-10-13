@@ -167,12 +167,12 @@
       text-align: left;
     }
 
-    .fb-page {
+    .index-fb-embedded > .fb-page {
       width: auto !important;
     }
 
     .fb-page iframe, #indoorview iframe{
-      width: 94.5vw !important;
+      width: 100% !important;
     }
 
     span {
