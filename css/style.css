@@ -57,13 +57,7 @@ html {
   display: flex;
 }
 
-.flex-d-c {
-  flex-direction: column;
-}
 
-.flex-d-r {
-  flex-direction: row;
-}
 
 .hamburger-menu {
   width: 40px;
