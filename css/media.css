@@ -172,7 +172,8 @@
     }
 
     .fb-page iframe, #indoorview iframe{
-      width: 94.5vw !important;
+      width: 100vw !important;
+      z-index: 1;
     }
 
     span {
@@ -192,8 +193,8 @@
       width: auto !important;
     }
 
-    #bottomcontory a img {
-      width: calc(90%/4) !important;
+    #bottomwhite{
+      text-align:center;
     }
     #bottommenu a img {
       width: calc(90%/4) !important;
@@ -298,6 +299,7 @@
 
     #header .contact-us {
       display: block;
+      z-index: 100;
     }
 
     .hyodai {
@@ -477,6 +479,9 @@
   }
   }
   @media only screen and (max-width: 599px) {
+    #bottommenu,.copy02,.copy03,.pro01,.pro02{
+      width:100% !important;
+    }
     #header .contact-us {
       width: 75%;
     }
@@ -489,6 +494,10 @@
 
     .student_profile-img {
       height: 150px;
+    }
+    .student_en-img {
+      height: auto !important;
+
     }
 
     .tuition-font {
