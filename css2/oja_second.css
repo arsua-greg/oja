@@ -91,7 +91,9 @@ body {
 	text-align:center;
 	padding:15px 0;
 }
-
+.school-performance{
+	margin: 0 auto;
+}
 /* .gorroNitta::before{
 	content:url('../profile_img/oja_profile_01_r32_c10.jpg');
 	background-repeat: no-repeat;

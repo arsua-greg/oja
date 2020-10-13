@@ -269,7 +269,8 @@ html {
 }
 .school-performance-list li {
   display: flex;
-  line-height: 25px
+  line-height: 25px;
+  padding:10px 0;
 }
 
 .school-performance-list li span {

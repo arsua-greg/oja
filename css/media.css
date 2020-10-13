@@ -7,6 +7,9 @@
   .u-d-t-c {
     text-align: center !important;
   }
+  .u-d-t-j{
+    text-align: justify !important;
+  }
 
   /*Tablet View*/
   @media only screen and (max-width: 769px) {
@@ -284,9 +287,9 @@
       display: block;
     }
 
-    .hyodai {
+    /* .hyodai {
       width: auto !important;
-    }
+    } */
 
     .hyodai img {
       width: 100% !important;
