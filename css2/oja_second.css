@@ -76,12 +76,30 @@ body {
 	font-style: normal;
 	line-height: normal;
 	color: #333;
-	background-image: url(../index_img/arrow01.gif);
+	/* background-image: url(../index_img/arrow01.gif);
 	background-repeat: no-repeat;
-	background-position: left center;
-	width: 165px;
-	padding-left: 15px;
+	background-position: left center; */
+	width: 100%;
 	margin-bottom: 15px;
+}
+.gorroNitta{
+	background-color: #96C459;
+	border-radius:25px;
+	width: 100%;	
+}
+.gNitta__left,.gNitta__right{
+	text-align:center;
+	padding:15px 0;
+}
+
+/* .gorroNitta::before{
+	content:url('../profile_img/oja_profile_01_r32_c10.jpg');
+	background-repeat: no-repeat;
+} */
+.copy01::before{
+	content:url('../index_img/arrow01.gif');;
+	background-repeat: no-repeat;
+	background-position:  center;
 }
 #underline02 {
 	background-color: #6C0;

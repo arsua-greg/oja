@@ -167,12 +167,12 @@
       text-align: left;
     }
 
-    .fb-page {
+    .index-fb-embedded > .fb-page {
       width: auto !important;
     }
 
     .fb-page iframe, #indoorview iframe{
-      width: 94.5vw !important;
+      width: 100% !important;
     }
 
     span {
@@ -192,8 +192,8 @@
       width: auto !important;
     }
 
-    #bottomcontory a img {
-      width: calc(90%/4) !important;
+    #bottomwhite{
+      text-align:center;
     }
     #bottommenu a img {
       width: calc(90%/4) !important;
@@ -491,6 +491,9 @@
   }
   }
   @media only screen and (max-width: 599px) {
+    #bottommenu,.copy02,.copy03,.pro01,.pro02{
+      width:100% !important;
+    }
     #header .contact-us {
       width: 75%;
     }
@@ -501,8 +504,13 @@
       width: 100% !important;
     }
 
+
     .student_profile-img {
       height: 150px;
+
+    .student_en-img {
+      height: auto !important;
+
     }
 
     .tuition-font {
@@ -624,7 +632,7 @@
     }
 
     .teacher_profile-img {
-      height: 210px !important;
-      width: 219px !important;
+      height: 100% !important;
+      width: 100% !important;
     }
   }
