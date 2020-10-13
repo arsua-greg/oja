@@ -411,6 +411,15 @@
 
   /*Mobile View*/
  @media only screen and (max-width: 376px) {
+  .u-d-b-sp{
+    display: block;
+  }
+  .u-m-c-sp{
+    margin: 0 auto;
+  }
+  .u-p-10-sp{
+    padding:10px;
+  }
   #bottommenu,.copy02,.copy03,.pro01,.pro02{
     width:100% !important;
   }
@@ -436,9 +445,9 @@
     width: 100% !important;
   }
 
-  .student_profile-img {
+  /* .student_profile-img {
     height: 100px;
-  }
+  } */
 
     .tuition-font {
     font-size: 60% !important;
@@ -482,8 +491,15 @@
   }
   }
   @media only screen and (max-width: 599px) {
-    .u-d-n-sp01{
-      display:none;
+
+    .u-d-b-sp{
+      display: block;
+    }
+    .u-m-c-sp{
+      margin: 0 auto;
+    }
+    .u-p-10-sp{
+      padding:10px !important;
     }
     #bottommenu,.copy02,.copy03,.pro01,.pro02{
       width:100% !important;
@@ -498,9 +514,9 @@
       width: 100% !important;
     }
 
-    .student_profile-img {
+    /* .student_profile-img {
       height: 150px;
-    }
+    } */
     .student_en-img {
       height: auto !important;
 
@@ -603,3 +619,55 @@
       width: 219px !important;
     }
   }
+
+.responsive{
+  width: 100%;
+  height: auto;
+}
+.profile_message{
+  background: url("../profile_img/oja_profile_image07_r47_c6.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  font-size: 84%;
+  font-style: normal;
+  line-height: 160%;
+  color: #333;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+
+}
+
+.profile_message--subtitle{
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	color: #3F6B4D;
+	text-align: left;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	font-weight: bold;
+}
+
+.profile_message--body{
+  font-size: 80%;
+	font-style: normal;
+	line-height: 180%;
+	color: #333;
+	text-align: left;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.beige-bg{
+  background-color: #F4E5BA;
+}
+.u-m-l-10{
+  margin-left:8px
+}
+.u-p-10{
+  padding:10px;
+}
+
