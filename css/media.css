@@ -251,6 +251,10 @@
       margin-top: 20px;
     }
 
+    .m-bottom-20 {
+      margin-bottom: 40px;
+    }
+
     .m-bottom-40 {
       margin-bottom: 40px;
     }
@@ -434,7 +438,7 @@
     width: 100% !important;
   }
 
-  .student_en-img {
+  .student_profile-img {
     height: 100px;
   }
 
@@ -502,8 +506,13 @@
       width: 100% !important;
     }
 
+
+    .student_profile-img {
+      height: 150px;
+
     .student_en-img {
       height: auto !important;
+
     }
 
     .tuition-font {
