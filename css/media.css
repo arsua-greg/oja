@@ -623,7 +623,7 @@
     }
 
     .teacher_profile-img {
-      height: 210px !important;
-      width: 219px !important;
+      height: 100% !important;
+      width: 100% !important;
     }
   }
