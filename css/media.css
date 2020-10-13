@@ -458,6 +458,9 @@
   }
   }
   @media only screen and (max-width: 599px) {
+    .u-d-n-sp01{
+      display:none;
+    }
     #bottommenu,.copy02,.copy03,.pro01,.pro02{
       width:100% !important;
     }
@@ -578,3 +581,4 @@
       width: 219px !important;
     }
   }
+
