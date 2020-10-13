@@ -501,7 +501,7 @@
     }
 
     .student_en-img {
-      height: 150px;
+      height: auto !important;
     }
 
     .tuition-font {
