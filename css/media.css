@@ -414,6 +414,9 @@
   .u-m-c-sp{
     margin: 0 auto;
   }
+  .u-p-10-sp{
+    padding:10px;
+  }
   #bottommenu,.copy02,.copy03,.pro01,.pro02{
     width:100% !important;
   }
@@ -490,6 +493,9 @@
     }
     .u-m-c-sp{
       margin: 0 auto;
+    }
+    .u-p-10-sp{
+      padding:10px !important;
     }
     #header .contact-us {
       width: 75%;
