@@ -183,6 +183,7 @@
     #copyright,
     #bottomstage,
     #mainstage03,
+    #bottommenu,
     .understage,
     .ins02,
     .ins03,
@@ -192,6 +193,9 @@
     }
 
     #bottomcontory a img {
+      width: calc(90%/4) !important;
+    }
+    #bottommenu a img {
       width: calc(90%/4) !important;
     }
 
@@ -373,10 +377,29 @@
       width: 43%;
       display: inline-block;
     }
+
+    .download_en-table {
+      width: auto !important;
+    }
+
+    .teacher_en-div{
+      width: auto !important;
+    }
+
+    .teacher_en-img {
+      height: 115px !important;
+      width: 114px !important;
+    }
   }
 
   /*Mobile View*/
  @media only screen and (max-width: 376px) {
+  .u-d-b-sp{
+    display: block;
+  }
+  .u-m-c-sp{
+    margin: 0 auto;
+  }
   #bottommenu,.copy02,.copy03,.pro01,.pro02{
     width:100% !important;
   }
@@ -401,44 +424,12 @@
   .fb-page,._2p3a {
     width: 100% !important;
   }
-}
-  @media only screen and (max-width: 599px) {
-    #header .contact-us {
-      width: 75%;
-    }
-    .fb-like,.inlineBlock._2tga._89n_._8j9v {
-      display:none !important;
-    }
-    .fb-page,._2p3a {
-      width: 100% !important;
-    }
+
+  .student_en-img {
+    height: 100px;
   }
 
-  @media only screen and (min-width: 600px) {
-
-    /* UTIL */
-    .u-d-n-md {
-      display: none;
-    }
-
-    .navigation {
-      display: block;
-    }
-  }
-
-  @media only screen and (min-width: 900px) {
-
-    /* UTIL */
-    .u-d-n-pc {
-      display: none;
-    }
-
-    .navigation {
-      display: block;
-    }
-  }
-
-  .tuition-font {
+    .tuition-font {
     font-size: 60% !important;
   }
 
@@ -459,3 +450,189 @@
   .bottommenu_en-img {
     width: 85px !important;
   }
+
+  .teacher_en-div{
+    width: auto !important;
+  }
+
+  .teacher_en-img {
+    height: 78px !important;
+    width: 73px !important;
+  }
+  }
+  @media only screen and (max-width: 599px) {
+    .u-d-b-sp{
+      display: block;
+    }
+    .u-m-c-sp{
+      margin: 0 auto;
+    }
+    #header .contact-us {
+      width: 75%;
+    }
+    .fb-like,.inlineBlock._2tga._89n_._8j9v {
+      display:none !important;
+    }
+    .fb-page,._2p3a {
+      width: 100% !important;
+    }
+
+    .student_en-img {
+      height: 150px;
+    }
+
+    .tuition-font {
+      font-size: 60% !important;
+    }
+  
+    .recruitment02_en-pdf {
+      width: 100px !important;
+      height: 35px !important;
+    }
+  
+    .entrace_font-en {
+      font-size: 60%;
+      line-height: 180%;
+    }
+  
+    #bottommenu-en {
+      width: 375px !important;
+    }
+  
+    .bottommenu_en-img {
+      width: 85px !important;
+    }
+
+    .teacher_en-div{
+      width: auto !important;
+    }
+
+    .teacher_en-img {
+      height: 78px !important;
+      width: 73px !important;
+    }
+
+    .teacher01 {
+      width: auto !important;
+    }
+
+    .teacher_en-table02 {
+      width: 200px !important;
+    }
+
+    .teacher_en-profile {
+      width: auto !important;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+
+    /* UTIL */
+    .u-d-n-md {
+      display: none;
+    }
+
+    .navigation {
+      display: block;
+    }
+
+    .tuition-font {
+      font-size: 60% !important;
+    }
+  
+    .recruitment02_en-pdf {
+      width: 100px !important;
+      height: 35px !important;
+    }
+  
+    .entrace_font-en {
+      font-size: 60%;
+      line-height: 180%;
+    }
+  
+    #bottommenu-en {
+      width: 375px !important;
+    }
+  
+    .bottommenu_en-img {
+      width: 85px !important;
+    }
+
+    .teacher_en-div{
+      width: auto !important;
+    }
+
+    .teacher_en-img {
+      height: 142px !important;
+      width: 112px !important;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+
+    /* UTIL */
+    .u-d-n-pc {
+      display: none;
+    }
+
+    .navigation {
+      display: block;
+    }
+
+    .teacher_en-img {
+      height: 210px !important;
+      width: 219px !important;
+    }
+  }
+
+.responsive{
+  width: 100%;
+  height: auto;
+}
+.profile_message{
+  background: url("../profile_img/oja_profile_image07_r47_c6.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  font-size: 84%;
+  font-style: normal;
+  line-height: 160%;
+  color: #333;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+
+}
+
+.profile_message--subtitle{
+	font-size: 90%;
+	font-style: normal;
+	line-height: normal;
+	color: #3F6B4D;
+	text-align: left;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	font-weight: bold;
+}
+
+.profile_message--body{
+  font-size: 80%;
+	font-style: normal;
+	line-height: 180%;
+	color: #333;
+	text-align: left;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.beige-bg{
+  background-color: #F4E5BA;
+}
+.u-m-l-10{
+  margin-left:8px
+}
+.u-p-10{
+  padding:10px;
+}
+
