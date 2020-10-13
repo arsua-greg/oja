@@ -259,7 +259,7 @@
     }
 
     .copy01 {
-      width: 100% !important;
+      width: auto !important;
     }
 
     .staff-mem {
@@ -473,8 +473,17 @@
   }
 
   .student_life-profile-img {
-    height: auto !important;
-    width: 90px !important;
+    height: auto ;
+    width: 90px;
+  }
+
+  .copy01 {
+    width: auto !important;
+  }
+
+  .profile-img {
+    height: auto;
+    width: 120px !important;
   }
   }
   @media only screen and (max-width: 599px) {
@@ -541,8 +550,13 @@
     }
 
     .student_life-profile-img {
-      height: auto !important;
-      width: 100px !important;
+      height: auto;
+      width: 90px;
+    }
+
+    .profile-img {
+      height: auto;
+      width: 160px;
     }
   }
 
@@ -589,8 +603,8 @@
     }
 
     .student_life-profile-img {
-      height: auto !important;
-      width: 125px !important;
+      height: auto ;
+      width: 125px ;
     }
   }
 
