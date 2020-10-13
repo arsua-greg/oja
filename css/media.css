@@ -7,6 +7,9 @@
   .u-d-t-c {
     text-align: center !important;
   }
+  .u-d-t-j{
+    text-align: justify !important;
+  }
 
   /*Tablet View*/
   @media only screen and (max-width: 769px) {
@@ -302,9 +305,9 @@
       z-index: 100;
     }
 
-    .hyodai {
+    /* .hyodai {
       width: auto !important;
-    }
+    } */
 
     .hyodai img {
       width: 100% !important;
@@ -488,6 +491,7 @@
   }
   }
   @media only screen and (max-width: 599px) {
+
     .u-d-b-sp{
       display: block;
     }
@@ -496,6 +500,9 @@
     }
     .u-p-10-sp{
       padding:10px !important;
+    }
+    #bottommenu,.copy02,.copy03,.pro01,.pro02{
+      width:100% !important;
     }
     #header .contact-us {
       width: 75%;
