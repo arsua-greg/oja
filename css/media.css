@@ -679,5 +679,57 @@
   }
 
 #bottomstage{
-  background: #F5EEDE;
+  /* background: #F5EEDE; */
+}
+
+.profile_message{
+  background: url("../profile_img/oja_profile_image07_r47_c6.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  font-size: 84%;
+  font-style: normal;
+  line-height: 160%;
+  color: #333;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+
+}
+
+.profile_message--subtitle{
+  font-size: 90%;
+  font-style: normal;
+  line-height: normal;
+  color: #3F6B4D;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+.profile_message--body{
+  font-size: 80%;
+  font-style: normal;
+  line-height: 180%;
+  color: #333;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.beige-bg{
+  background-color: #F4E5BA;
+}
+
+.u-m-l-10{
+  margin-left:8px
+}
+.u-p-10{
+  padding:10px;
+}
+
+.u-d-n-sp {
+  display: none;
 }
