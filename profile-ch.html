@@ -1,81 +1,130 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="zh" xml:lang="zh"><!-- InstanceBegin template="/Templates/oja_ch.dwt" codeOutsideHTMLIsLocked="false" -->
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> 
-<link href="css/media.css" rel="stylesheet" type="text/css" />
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="assets/js/script.js" type="text/javascript"></script>
-<script src="js-global/FancyZoom.js" type="text/javascript"></script>
-<script src="js-global/FancyZoomHTML.js" type="text/javascript"></script>
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>学校介绍｜如果留学大阪有不问国籍的日语学校「大阪日本語アカデミー」</title>
-<!-- InstanceEndEditable -->
-<!-- InstanceBeginEditable name="head" -->
-<link href="css2/submain.css" rel="stylesheet" type="text/css" />
-<!-- InstanceEndEditable -->
-<link href="css2/oja_second.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript">
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学校案内｜留学するなら大阪にある国籍不問の日本語学校「OJA大阪日本語アカデミー」</title>
+  <meta name="description" content="OJA大阪日本語アカデミーなら充実したサポートとカリキュラムで安心の語学留学を実現" />
+  <meta name="keywords" content="日本語,語学,語学学校,大阪,留学,進学,大学,大学院" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/media.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css2/submain.css" rel="stylesheet" type="text/css" /> 
+  <link href="css2/oja_second.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="js-global/FancyZoom.js" type="text/javascript"></script>
+  <script src="js-global/FancyZoomHTML.js" type="text/javascript"></script> 
+  
+  <script type="text/javascript">
+   $(document).ready(function () {
+      $(".hamburger-menu").click(function () {
+        $(this).toggleClass("active");
+        $('.menu').toggleClass("active");
+        $('body').toggleClass("active");
+      });
+      if ($('#back-to-top').length) {
+    var scrollTrigger = 100, // px
+        backToTop = function () {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > scrollTrigger) {
+                $('#back-to-top').addClass('show');
+            } else {
+                $('#back-to-top').removeClass('show');
+            }
+        };
+    backToTop();
+    $(window).on('scroll', function () {
+        backToTop();
+    });
+    $('#back-to-top').on('click', function (e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: 0
+        }, 700);
+    });
+    }  
+    });
+   
+  function MM_preloadImages() { //v3.0
+    var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
     if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
+  }
 
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
+  function MM_swapImgRestore() { //v3.0
+    var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+  }
 
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+  function MM_findObj(n, d) { //v4.01
+    var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
     d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
+    if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+    for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+    if(!x && d.getElementById) x=d.getElementById(n); return x;
+  }
 
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
+  function MM_swapImage() { //v3.0
+    var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+  }
+
+ 
 </script>
 </head>
 
 <body onload="setupZoom();MM_preloadImages('index_img/oja_top_ov_r7_c26.jpg','index_img/oja_top_ov_r16_c26.jpg','index_img/oja_top_ov_r20_c26.jpg','index_img/shisetu_ov.jpg','index_img/oja_top_ov_r24_c26.jpg','index_img/oja_top_ov_r27_c26.jpg','index_img/oja_top_ov_r34_c26.jpg','index_img/oja_top_ov_r37_c26.jpg','index_img/oja_top_ov_r46_c26.jpg','index_img/oja_top_ov_r51_c26.jpg','index_img/oja_top_ov_r54_c26.jpg','index_img/city_02.jpg','index_img/oneday_04.jpg','index_img/student_02.jpg','index_img/teacher_02.jpg','index_img/supporter_02.jpg','left_navi_img/ch/city_02_ch.jpg','left_navi_img/ch/home_02_ch.jpg','left_navi_img/ch/schedule_02_ch.jpg','left_navi_img/ch/message-a_02_ch.jpg','left_navi_img/ch/teacher_02_ch.jpg','left_navi_img/ch/support_staff_02_ch.jpg','left_navi_img/ch/japan_life02_ch.jpg','left_navi_img/ch/life_support_02_ch.jpg','left_navi_img/ch/oneday_02_ch.jpg','left_navi_img/ch/student_02_ch.jpg','left_navi_img/ch/japanese-culture_02_ch.jpg','left_navi_img/ch/supporter_02_ch.jpg','second_img/ch/header_reference_on_ch.jpg','second_img/ch/header_pamphlet_on_ch.jpg','second_img/ch/glnavi_school_introduction_on.jpg','second_img/ch/glnavi_school_facilities_on.jpg','second_img/ch/glnavi_Curriculum_Introduction_on.jpg','second_img/ch/glnavi_life_support_on.jpg','second_img/ch/glnavi_Recruit_Notice_on.jpg','second_img/ch/glnavi_Borchure_Inquiry_on.jpg')">
-<a name="top" id="top"></a>
+
 <div id="header">
   <a href="#" id="back-to-top" title="Back to top"><i class="fa fa-angle-up"></i></a>
-  <div class="contact-us">周一至周五上午9:00至下午5:00通过电话联系我们
-    <span class="contact-us-num">06-6707-2227</span>
-  </div>
-  <table width="950" border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td width="290" class="top-heading com-logo"  align="left" valign="top"><a href="index-ch.html"><img src="second_img/header_logo.jpg" alt="大阪日本語アカデミー" width="193" height="107" border="0" /></a></td>
-      <td width="660" class="contact" valign="top"><table width="660" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-          <td width="299" class="contact-num"><img src="second_img/ch/header_tel_ch.jpg" alt="" width="299" height="72" /></td>
-          <td width="181" class="m-d-n" align="left"><a href="http://oja.jp/contact-ch01/reference.html"><img src="second_img/ch/header_reference_ch.jpg" alt="咨询窗口" name="Image2" width="180" height="72" border="0" id="Image2" onmouseover="MM_swapImage('Image2','','second_img/ch/header_reference_on_ch.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="contact/reference.html"></a></td>
-          <td width="180" class="m-d-n"><a href="http://oja.jp/contact-ch02/shiryou.html"><img src="second_img/ch/header_pamphlet_ch.jpg" alt="资料请求" name="Image3" width="180" height="72" border="0" id="Image3" onmouseover="MM_swapImage('Image3','','second_img/ch/header_pamphlet_on_ch.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="contact/shiryou.html"></a></td>
-        </tr>
-      </table>
-        <table width="660"  class="languages" border="0" cellspacing="0" cellpadding="0">
-          <tr>
-            <td width="193" class="m-d-n" >&nbsp;</td>
-            <td width="91" class="m-d-n">&nbsp;</td>
-            <td width="110"><a href="index-vi.html"><img src="second_img/header_vi.jpg" width="110" height="35" border="0" /></a></td>
-            <td width="93"><a href="index-ch.html"><img src="index_img/header_ch_on.jpg" alt="中国" width="92" height="35" border="0" /></a><a href="ch/index.html"></a></td>
-            <td width="91"><a href="index-en.html"><img src="second_img/header_en.jpg" width="91" height="35" border="0" /></a></td>
-            <td width="82"><a href="index.html"><img src="index_img/header_jp.jpg" alt="日本" width="83" height="35" border="0" /></a></td>
-          </tr>
-      </table></td>
-    </tr>
-  </table>
-    <div class="hamburger-menu-content">
-    <a class="hamburger-menu flex">
-      <span></span>
-      <span></span>
-    </a>
-    <div class="menu">
+
+   <table width="950" border="0" cellspacing="0" cellpadding="0">
+     <tr>
+       <td width="291" class="top-heading com-logo" align="left" valign="top"><img src="index_img/header_logo.jpg"
+           width="183" height="107" /></td>
+       <td width="659" class="contact" valign="top">
+         <table width="659" border="0" cellspacing="0" cellpadding="0">
+           <tr>
+             <td width="298" class="contact-num"><img src="index_img/header_tel.jpg" width="298" height="72" /></td>
+             <td width="180" class="m-d-n"><a href="http://oja.jp/contact01/reference.html"><img
+                   src="index_img/oja_top_01_r1_c21.jpg" alt="お問い合わせ" name="Image1" width="180" height="72" border="0"
+                   id="Image1" onmouseover="MM_swapImage('Image1','','index_img/oja_top_ov_r1_c18.jpg',1)"
+                   onmouseout="MM_swapImgRestore()" /></a></td>
+             <td width="1" class="m-d-n"><img src="index_img/no_image.gif" width="1" height="10" /></td>
+             <td width="180" class="m-d-n"><a href="http://oja.jp/contact02/shiryou.html"><img
+                   src="index_img/oja_top_01_r1_c28.jpg" alt="資料請求" name="Image2" width="180" height="72" border="0"
+                   id="Image2" onmouseover="MM_swapImage('Image2','','index_img/oja_top_ov_r1_c26.jpg',1)"
+                   onmouseout="MM_swapImgRestore()" /></a></td>
+           </tr>
+         </table>
+         <table width="659" class="languages" border="0" cellspacing="0" cellpadding="0">
+           <tr>
+             <td width="204">
+               <div class="fb-like" data-href="https://www.facebook.com/oja.jp" data-send="false"
+                 data-layout="button_count" data-width="200" data-show-faces="true" data-font="arial"></div>
+             </td>
+             <td width="80"></td>
+             <td width="109"><a href="profile-vi.html"><img src="index_img/header_vi.jpg" width="109" height="35"
+                   border="0" /></a></td>
+             <td width="92"><a href="profile-ch.html"><img src="index_img/header_ch_on.jpg" width="92" height="35"
+                   border="0" /></a></td>
+             <td width="91"><a href="profile-en.html"><img src="index_img/header_en.jpg" width="91" height="35"
+                   border="0" /></a></td>
+             <td width="83"><a href="profile.html"><img src="index_img/header_jp.jpg" width="83" height="35"
+                   border="0" /></a></td>
+           </tr>
+         </table>
+       </td>
+     </tr>
+   </table>
+   <div class="hamburger-menu-content">
+     <a class="hamburger-menu flex">
+       <span></span>
+       <span></span>
+     </a>
+     <div class="menu">
       <ul class="">
         <li><a href="contact-ch01/reference.html">咨询窗口</a></li>
         <li><a href="contact02/shiryou.html">资料请求</a></li>
@@ -98,20 +147,22 @@ function MM_swapImage() { //v3.0
         <li><a href="https://www.facebook.com/oja.jp">Facebook</a></li>
         <li><a href="https://jpnsy.com/">オンライン日本語教育「Japnaeasy」</a></li>
       </ul>
-    </div>
-  </div>
-</div>
+     </div>
+
+   </div>
+ </div>
 <div id="upline"><img src="index_img/no_image.gif" width="10" height="4" /></div>
 <!-- InstanceBeginEditable name="image" -->
 <div class="image02">
   <div id="promainstage02-ch">
-    <div id="mainstage03">
-      <table width="950" border="0" cellspacing="0" cellpadding="0">
+    <div id="mainstage03" class="w-100">
+      <table width="950" class="w-100" border="0" cellspacing="0" cellpadding="0">
         <tr>
-          <td><img src="profile_img/ch/header02.jpg" width="950" height="200" /></td>
+          <td><img src="profile_img/ch/header02.jpg" class="w-100 h-auto" width="950" height="200" /></td>
         </tr>
         <tr>
-          <td align="left"><table width="695" border="0" cellspacing="0" cellpadding="0">
+          <td align="left">
+            <table width="695" class="w-100" border="0" cellspacing="0" cellpadding="0">
             <tr>
               <td><a href="profile-ch.html"><img src="second_img/ch/glnavi_school_introduction.jpg" alt="学校介绍" name="Image191" width="112" height="60" border="0" id="Image191" onmouseover="MM_swapImage('Image191','','second_img/ch/glnavi_school_introduction_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
               <td><a href="school-institution-ch.html"><img src="second_img/ch/glnavi_school_facilities.jpg" alt="学校设施" name="Image201" width="110" height="60" border="0" id="Image201" onmouseover="MM_swapImage('Image201','','second_img/ch/glnavi_school_facilities_on.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
@@ -127,11 +178,13 @@ function MM_swapImage() { //v3.0
   </div>
 </div>
 <!-- InstanceEndEditable -->
-<div id="gomi"><!-- InstanceBeginEditable name="gomi" --><a href="index.html">Home</a> &gt; 学校介绍<!-- InstanceEndEditable --></div>
+<div id="gomi"><!-- InstanceBeginEditable name="gomi" -->
+  <a href="index.html">Home</a> &gt;  学校介绍<!-- InstanceEndEditable -->
+</div>
 <div id="mainstage">
   <div id="rightstage">
     <div class="sidemenu01"><a href="index-ch.html"><img src="left_navi_img/ch/home_01_ch.jpg" alt="首页" name="Image1" width="180" height="70" border="0" id="Image1" onmouseover="MM_swapImage('Image1','','left_navi_img/ch/home_02_ch.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></div>
-    <div class="sidemenu02u10"><img src="left_navi_img/ch/title01_ｃｈ.jpg" width="180" height="34" /></div>
+    <div class="sidemenu02u10"><img src="left_navi_img/ch/title01_ch.jpg" width="180" height="34" /></div>
     <div class="sidemenu03"><a href="schedule-ch.html"><img src="left_navi_img/ch/schedule_01_ch.jpg" alt="年间日程表" name="Image19" width="180" height="70" border="0" id="Image19" onmouseover="MM_swapImage('Image19','','left_navi_img/ch/schedule_02_ch.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></div>
     <div class="sidemenu03"><a href="teache-profile-ch.html"><img src="left_navi_img/ch/teacher_01_ch.jpg" alt="讲师介绍" name="Image20" width="180" height="70" border="0" id="Image20" onmouseover="MM_swapImage('Image20','','left_navi_img/ch/teacher_02_ch.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></div>
     <div class="sidemenu03"><a href="life-supportstaff-ch.html"><img src="left_navi_img/ch/support_staff_01_ch.jpg" alt="生活支援担当" name="Image9" width="180" height="70" border="0" id="Image9" onmouseover="MM_swapImage('Image9','','left_navi_img/ch/support_staff_02_ch.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="philosophy.html"></a></div>
@@ -146,7 +199,7 @@ function MM_swapImage() { //v3.0
     <div class="sidemenu02u10"><img src="left_navi_img/ch/title04_ch.jpg" width="180" height="34" /></div>
     <div class="sidemenu03"><a href="profile-ch.html#riji"><img src="left_navi_img/ch/message-a_01_ch.jpg" alt="理事長メッセージ" name="Image13" width="180" height="70" border="0" id="Image13" onmouseover="MM_swapImage('Image13','','left_navi_img/ch/message-a_02_ch.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></div>
     <div class="sidemenu01"><a href="suppoter-ch.html"><img src="left_navi_img/ch/supporter_01_ch.jpg" alt="生活サポーター" name="Image14" width="180" height="70" border="0" id="Image14" onmouseover="MM_swapImage('Image14','','left_navi_img/ch/supporter_02_ch.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></div>
-
+    <div class="sidemenu02u10"><a href="scholarship-ch.html"><img src="left_navi_img/scholarship.jpg" alt="地図・アクセス" width="180" height="150" border="0" /></a></div>
     <div class="sidemenu02u10"><a href="access-ch.html"><img src="left_navi_img/map.jpg" alt="地図・アクセス" width="180" height="150" border="0" /></a></div>
     <div class="sidemenu02u10"><a href="city-ch.html"><img src="left_navi_img/ch/city_ch.jpg" alt="周辺案内" width="180" height="159" border="0" /></a></div>
     <div class="sidemenu02u10"><a href="philosophy-ch.html"><img src="left_navi_img/ch/ch_philosophy.jpg" alt="教育理念" width="180" height="150" border="0" /></a></div>
@@ -154,20 +207,21 @@ function MM_swapImage() { //v3.0
     <div class="sidemenu02u10"><a href="https://www.facebook.com/oja.jp" target="_blank"><img src="left_navi_img/en/facebook_en.jpg" alt="Facebook" width="180" height="150" border="0" /></a></div>
 	
 	 <div class="right_contents03"> <a href="https://jpnsy.com/" target="_blank"><img src="index_img/jpnsy.jpg" alt="オンライン日本語教育「Japnaeasy」" width="180" height="150" border="0" /></a></div>  
-	
   </div>
-  <div id="leftstage"><!-- InstanceBeginEditable name="main" -->
-    <div class="hyodai"><img src="profile_img/ch/title01.jpg" alt="学校概况" width="710" height="44" /></div>
-    <div class="gaiyouspace">
-      <table width="678" border="0" cellspacing="0" cellpadding="0">
+  <div id="leftstage" class="w-100 p-0 f-none m-auto"><!-- InstanceBeginEditable name="main" -->
+    <div class="hyodai  w-100"><img src="profile_img/ch/title01.jpg" alt="学校概况" width="710" height="44" /></div>
+    <div class="gaiyouspace w-100 p-0">
+      <table class="w-100" border="0" cellspacing="0" cellpadding="0">
         <tr>
-          <td width="468" valign="top"><div class="copy02">
-            <table width="450" border="0" cellspacing="0" cellpadding="0">
-              <tr>
-                <td width="110">名　称</td>
-                <td width="340">大阪日本語アカデミー</td>
-              </tr>
-            </table></div>
+          <td class="w-90 d-block p-0" width="468" valign="top">
+            <div class="copy02">
+              <table width="450" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="110">名　称</td>
+                  <td width="340">大阪日本語アカデミー</td>
+                </tr>
+              </table>
+            </div>
             <div class="copy02">
               <table width="450" border="0" cellspacing="0" cellpadding="0">
                 <tr>
@@ -251,7 +305,8 @@ function MM_swapImage() { //v3.0
               </table>
             </div>
           </td>
-          <td width="210" valign="top"><table width="210" border="0" cellspacing="0" cellpadding="0">
+          <td class="u-d-n-sp" width="210" valign="top">
+            <table width="210" border="0" cellspacing="0" cellpadding="0">
             <tr>
               <td><img src="profile_img/oja_profile_01_r11_c14.jpg" width="210" height="160" /></td>
             </tr>
@@ -261,127 +316,172 @@ function MM_swapImage() { //v3.0
             <tr>
               <td><img src="profile_img/oja_profile_01_r18_c14.jpg" width="210" height="160" /></td>
             </tr>
-          </table></td>
+          </table>
+        </td>
         </tr>
       </table>
     </div>
 
 
-<a name="nextstage" id="nextstage"></a>
-<div class="hyodai"><img src="profile_img/ch/title04.jpg" alt="升学的实际成绩" width="710" height="44" /></div>
-<div class="gaiyouspace">
-  <table width="678" border="0" cellspacing="0" cellpadding="0">
-	  
-	<tr>
+<!-- <a name="nextstage" id="nextstage"></a> -->
+<div class="hyodai w-100"><img src="profile_img/ch/title04.jpg" alt="升学的实际成绩" width="710" height="44" /></div>
+<div class="gaiyouspace w-100 ">
+  <div class="u-d-n-sp01 u-d-n-pc  ">
+    <ul class="school-performance-list ">
+      <li><span class="ins02">#2016</span> <span class="font80g u-d-t-c">学生人数</span></li>
+      <li class="font90ng"><span >・大阪大学大学院 人间科学部</span>   <span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・大阪大学大学院 法学研究科 </span>    <span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・大阪市立大学大学院创造都市研究科 </span >  <span class="u-d-t-c">3名</span></li>
+      <li class="font90ng"><span>・兵库教育大学 特別支援教育专攻 </span>   <span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・立命館亚洲太平洋大学 亚洲太平洋学部</span>   <span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・关西学院大学大学院社会学部</span>    <span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・日本经济大学 经济学部</span>   <span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・日本经济大学 商学科</span>    <span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・羽衣国际大学 现代社会科学 观光课程</span><span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・白凤短期大学 综合人间学科</span>  <span class="u-d-t-c">2名</span></li>
+      <li class="font90ng"><span>・其他 </span>  <span class="u-d-t-c"> 10名</span></li>
+    </ul>
+  
+    <ul class="school-performance-list ">
+      <li><span class="ins02">#2015</span><span class="font80g u-d-t-c">学生人数</span></li>
+      <li class="font90ng"><span>・大阪大学大学院　基础工学研究科</span><span class="u-d-t-c" >1名</span></li>
+      <li class="font90ng"><span>・大阪市立大学大学院　创造都市研究科</span><span class="u-d-t-c">3名</span></li>
+      <li class="font90ng"><span>・大阪教育大学大学院</span><span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・同志社大学大学院　社会文化情报研究科</span> <span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・关西大学大学院 综合情报学研究科</span><span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・奈良女子大学大学院　生活环境学部</span><span class="u-d-t-c">2名</span></li>
+      <li class="font90ng"><span>・大阪观光大学　观光学科</span><span class="u-d-t-c">4名</span></li>
+      <li class="font90ng"><span>・羽衣国际大学　现代社会学部</span><span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・相爱大学　人文学部</span><span class="u-d-t-c">1 名</span></li>
+      <li class="font90ng"><span>・神户医疗福祉大学 社会福祉学部</span><span class="u-d-t-c">1 Person</span></li>
+      <li class="font90ng"><span>・其他</span><span class="u-d-t-c">22名</span ></li>
+    </ul>
+  
+    <ul class="school-performance-list">
+      <li class="font90ng"><span class="ins02">#2014</span><span class="font80g u-d-t-c">学生人数</span></li>
+      <li class="font90ng"><span>・京都大学大学院   医学部</span><span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・奈良女子大学大学院　住环境学部</span><span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・关西大学大学院  社会学部</span><span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・相爱大学　  生命科学部</span> <span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・福井工业大学　生命科学部</span><span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・神户医疗大学  福祉商务</span><span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・清风情报工科学院</span><span class="u-d-t-c">3名</span></li>
+      <li class="font90ng"><span>・奈良计算机专门学校</span><span class="u-d-t-c">1名</span></li>
+    </ul>
+  
+    <ul class="school-performance-list">
+      <li class="font90ng"><span class="ins02">#2013</span><span class="font80g u-d-t-c">学生人数</span></li>
+      <li class="font90ng"><span>・大阪市立大学大学院　创造都市研究科</span><span class="u-d-t-c">3名</span></li>
+      <li class="font90ng"><span>・大阪市立大学大学院　文学部人间行动学科</span><span class="u-d-t-c">1名</span></li>
+      <li class="font90ng"><span>・数字好莱坞大学院</span><span class="u-d-t-c">1名</span></li>
+    </ul>
+  </div>
+  <table class=" school-performance u-d-n-sp" width="678" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
       <td><span class="ins02">#2016</span></td>
       <td align="center" class="font80n">学生人数</td>
-      <td width="254" rowspan="14" align="right" class="font80n"><img src="profile_img/oja_profile_image11.jpg" width="210" height="320" alt="升学的实际成绩" /></td>
-      </tr>
+      <td class=" font80n"><img src="profile_img/oja_profile_image11.jpg" width="210" height="320" alt="升学的实际成绩" class="pro-ch" /></td>
+    </tr>
     <tr>
-      <td width="344"><span class="font90ng">大阪大学大学院  人间科学部</span></td>
-      <td width="80" align="center"><span class="font90ng">1名</span></td>
-      </tr>
+      <td ><span class="font90ng">大阪大学大学院  人间科学部</span></td>
+      <td  align="center"><span class="font90ng">1名</span></td>
+    </tr>
     <tr>
-      <td width="344"><span class="font90ng">大阪大学大学院  法学研究科 </span></td>
-      <td width="80" align="center"><span class="font90ng">1名</span></td>
-      </tr>
+      <td><span class="font90ng">大阪大学大学院  法学研究科 </span></td>
+      <td  align="center"><span class="font90ng">1名</span></td>
+    </tr>
     <tr>
       <td><span class="font90ng">大阪市立大学大学院创造都市研究科</span></td>
       <td align="center"><span class="font90ng">3名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">兵库教育大学 特別支援教育专攻</span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">立命館亚洲太平洋大学 亚洲太平洋学部 </span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">关西学院大学大学院社会学部</span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">日本经济大学 经济学部 </span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">日本经济大学 商学科</span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
-	 <tr>
+    </tr>
+	  <tr>
       <td><span class="font90ng">羽衣国际大学 现代社会科学 观光课程</span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-     </tr>
-	 <tr>
+    </tr>
+	  <tr>
       <td><span class="font90ng">白凤短期大学 综合人间学科</span></td>
       <td align="center"><span class="font90ng">2名</span></td>
 	  </tr>
 	  <tr>
 　　　 <td><span class="font90ng">其他</span></td>
       <td align="center"><span class="font90ng">10名</span></td>
-     </tr>
+    </tr>
     <tr>
       <td>&nbsp;</td>
       <td align="center">&nbsp;</td>
-      </tr>
-	  
-	    <tr>
+    </tr>
+	  <tr>
       <td><span class="ins02">#2015</span></td>
       <td align="center" class="font80n">学生人数</td>
-      </tr>
+    </tr>
     <tr>
       <td width="344"><span class="font90ng">大阪大学大学院　基础工学研究科 </span></td>
       <td width="80" align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td width="344"><span class="font90ng">大阪市立大学大学院　创造都市研究科</span></td>
       <td width="80" align="center"><span class="font90ng">3名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">大阪教育大学大学院</span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">同志社大学大学院　社会文化情报研究科</span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">关西大学大学院  综合情报学研究科</span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">奈良女子大学大学院　生活环境学部</span></td>
       <td align="center"><span class="font90ng">2名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">大阪观光大学　观光学科</span></td>
       <td align="center"><span class="font90ng">4名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">羽衣国际大学　现代社会学部</span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
-	  
-	  
-	   <tr>
+    </tr>
+	  <tr>
       <td><span class="font90ng">相爱大学　人文学部</span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
-	   <tr>
+    </tr>
+	  <tr>
       <td><span class="font90ng">神户医疗福祉大学 社会福祉学部</span></td>
       <td align="center"><span class="font90ng">2名</span></td>
-      </tr>
-	   <tr>
+    </tr>
+	  <tr>
       <td><span class="font90ng">其他</span></td>
       <td align="center"><span class="font90ng">22名</span></td>
-      </tr>	  
+    </tr>	  
     <tr>
       <td>&nbsp;</td>
       <td align="center">&nbsp;</td>
-      </tr>  
-	  
-	  
+    </tr>  
     <tr>
       <td><span class="ins02">#2014</span></td>
       <td align="center" class="font80n">学生人数</td>
@@ -389,45 +489,43 @@ function MM_swapImage() { //v3.0
     <tr>
       <td width="344"><span class="font90ng">　・京都大学大学院   医学部</span></td>
       <td width="80" align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td width="344"><span class="font90ng">　・奈良女子大学大学院　住环境学部</span></td>
       <td width="80" align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">　・关西大学大学院  社会学部</span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">　・相爱大学　  生命科学部</span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">　・福井工业大学　生命科学部</span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">　・神户医疗大学  福祉商务</span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">　・清风情报工科学院</span></td>
       <td align="center"><span class="font90ng">3名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">　・奈良计算机专门学校</span></td>
       <td align="center"><span class="font90ng">1名</span></td>
-      </tr>
+    </tr>
     <tr>
       <td>&nbsp;</td>
       <td align="center">&nbsp;</td>
-      </tr>
-	  
-	  
+    </tr>
     <tr>
       <td width="344"><span class="ins02">#2013</span></td>
       <td width="80" align="center">&nbsp;</td>
-      </tr>
+    </tr>
     <tr>
       <td><span class="font90ng">　・大阪市立大学大学院　创造都市研究科</span></td>
       <td align="center"><span class="font90ng">3名</span></td>
@@ -445,19 +543,21 @@ function MM_swapImage() { //v3.0
 
 
     <a name="riji" id="riji"></a>
-    <div class="hyodai"><img src="profile_img/ch/title02.jpg" alt="理事长介绍" width="710" height="44" /></div>
-    <div class="gaiyouspace">
-      <table width="678" border="0" cellspacing="0" cellpadding="0">
+    <div class="hyodai w-100">
+      <img src="profile_img/profile_copy_002.jpg" class="w-100 h-auto" alt="理事長プロフィール・メッセージ" width="712" height="50" /></div>
+    <div class="">
+
+    </div>
+    <div class="gaiyouspace w-100 p-0">
+      <table width="0" class="w-100" border="0" cellspacing="0" cellpadding="0">
         <tr>
-          <td width="273" align="left" valign="top"><img src="profile_img/oja_profile_022.jpg" width="257" height="280" /></td>
-          <td width="405" valign="top"><div class="copy03">大阪日本語アカデミー理事長<br />
+          <td width="273" class="m-d-n u-d-t-c" align="left" valign="top"><img src="profile_img/oja_profile_022.jpg" width="257" height="280" /></td>
+          <td class="w-100"  valign="top" style="vertical-align: top"><div class="copy03">大阪日本語アカデミー理事長<br />
             兼任 エヌ・ティ・ユー有限公司 董事长</div>
-            <table width="405" border="0" cellspacing="0" cellpadding="0">
+            <table  border="0" cellspacing="0" cellpadding="0" class="gorroNitta">
               <tr>
-                <td width="25"><img src="profile_img/oja_profile_01_r32_c10.jpg" width="25" height="48" /></td>
-                <td width="176" bgcolor="#96C459" class="font100white">新田 悟朗</td>
-                <td width="179" bgcolor="#96C459" class="font84white">Goro Nitta</td>
-                <td width="25"><img src="profile_img/oja_profile_01_r32_c18.jpg" width="25" height="48" /></td>
+                <td><div class="font100white gNitta__left" width="50%">新田 悟朗</div></td>
+                <td><div class="font100white gNitta__right" width="50%">Goro Nitta</div></td> <!-- font84white orig ver -->
               </tr>
           </table>
           <div class="pro01">学历</div>
@@ -481,14 +581,23 @@ function MM_swapImage() { //v3.0
                 <td colspan="2"><img src="index_img/no_image.gif" width="2" height="10" /></td>
                 </tr>
               <tr>
-                <td>2007年</td>
+                <td>2012年</td>
                 <td>兼任大阪市议员新田孝的事务所工作</td>
               </tr>
+
               </table>
           </div></td>
         </tr>
       </table>
-      <table width="678" border="0" cellspacing="0" cellpadding="0">
+      <div class="company-mission u-d-n-md">
+        <h2>我的使命是通过在亚洲的国际化和团契建设为社会做出贡献。</h2>
+        <h4>大阪日本语学院理事长<br> 大阪日本语学院理事长。</h4>
+        <span>我的目标是为社会、为日本、为世界做贡献。</span>
+        <p>我校所在的大阪平野是一个拥有众多中小型企业的城市。 我在管理自己的公司时，敏锐地意识到，在当前的趋势下，必须确保新的劳动力，开拓市场和销售渠道，包括技术发展。 为此，我们比以往任何时候都更有必要加强与中国、韩国等亚洲国家的联系，我以为，不仅在政府层面，而且在民间也加强联系，对地区、日本乃至世界的发展更为重要。
+          我们希望通过开设日语学校，吸引全世界特别是亚洲的优秀人才来学习先进的日语知识和技能，为实现全球化社会做出贡献。
+          我的目标是以我的老师--大阪市立大学研究生院的千间胜彦教授为顾问，创建一所为新生提供高级教育的学校，为地区、日本乃至世界作出贡献。</p>
+      </div>
+      <table width="678" border="0" cellspacing="0" cellpadding="0" class="m-d-n">
         <tr>
           <td><img src="index_img/no_image.gif" width="2" height="20" /></td>
         </tr>
@@ -499,10 +608,12 @@ function MM_swapImage() { //v3.0
           <td><table width="678" border="0" cellspacing="0" cellpadding="0">
             <tr>
               <td width="8"><img src="index_img/no_image.gif" width="8" height="2" /></td>
-              <td width="670" class="message0001"><div class="copy04"> 大阪日本語アカデミー理事长<br />
+              <td width="670" class="message0001"><div class="copy04"> 大阪日本语学院院长<br />
                 有限公司N・T・U董事长</div>
-                <div class="copy05">我的使命是为亚洲友好关系和国际合作的发展做贡献</div>
-                <div class="copy06">我校地处的大阪市平野区，是中小企业很多的城市。我也经营公司,而在新的时代发展中我深切感受到技术的开发、新型劳动力的确保、以及市场开发的重要性。因此我认为(日本)与中、韩为首的亚洲各国的联系是至关重要的,不光是政府之间,民间的联系对地区城市、日本甚至世界的发展都是意义重大的,此次开设日语学校,希望以亚洲为中心募集世界各国的优秀人才，学习日本的先进知识和技术为全球一体化的实现出一臂之力。此次我的导师大阪市立大学寄生于教授作为我校顾问，为留学生们提供高等教育的学校，以此为地区和日本等作出贡献。</div></td>
+                <div class="copy05">我的目标是为社会、为日本、为世界做贡献。</div>
+                <div class="copy06">我校所在的大阪平野是一个拥有众多中小型企业的城市。 我在管理自己的公司时，敏锐地意识到，在当前的趋势下，必须确保新的劳动力，开拓市场和销售渠道，包括技术发展。 为此，比以往任何时候都更需要加强与中国、韩国等亚洲国家的联系，我想，不仅是政府层面，民间层面的加强联系对地区、日本乃至世界的发展都更为重要。<br />
+                  我们希望通过设立日语学校，吸引全世界，特别是亚洲的优秀人才来日本学习先进的知识和技能，为实现全球化社会做出贡献。<br />
+                  我的目标是以我的老师--大阪市立大学研究生院的千间胜彦教授为指导老师，创建一所为新生提供高级教育的学校，为地区、日本乃至世界做出贡献。</div></td>
             </tr>
           </table>
             <table width="678" border="0" cellspacing="0" cellpadding="0">
@@ -514,69 +625,79 @@ function MM_swapImage() { //v3.0
       </table>
     </div>
     <a name="koucho" id="koucho"></a>
-	  
 
   <!-- InstanceEndEditable --></div>
-  <div id="gotop"><a href="#top"><img src="index_img/oja_top_01_r30_c30.jpg" alt="Page Top" width="90" height="30" border="0" /></a></div>
+
 </div>
 <div id="underline"><img src="index_img/no_image.gif" width="10" height="4" /></div>
 <div id="understage">
-  <div id="understage02">
-    <table width="950" border="0" cellspacing="0" cellpadding="0">
+  <div id="understage02" class="w-100">
+    <table width="950" class="w-100" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td width="589"  class="footer-logo"  align="left"><a href="index-ch.html"><img src="index_img/oja_top_01_r32_c2.jpg" width="313" height="71" border="0" /></a></td>
-        <td width="181" class="m-d-n"><a href="http://oja.jp/contact-ch01/reference.html"><img src="second_img/ch/header_reference_ch.jpg" alt="咨询窗口" name="Image41" width="180" height="72" border="0" id="Image41" onmouseover="MM_swapImage('Image41','','second_img/ch/header_reference_on_ch.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="contact-en/reference.html"></a><a href="contact/reference.html"></a></td>
-        <td width="180" class="m-d-n"><a href="http://oja.jp/contact-ch02/shiryou.html"><img src="second_img/ch/header_pamphlet_ch.jpg" alt="资料请求" name="Image42" width="180" height="72" border="0" id="Image42" onmouseover="MM_swapImage('Image42','','second_img/ch/header_pamphlet_on_ch.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="contact-en/shiryou.html"></a><a href="contact/shiryou.html"></a></td>
+        <td width="589" class="p-20"align="left"><img src="index_img/oja_top_01_r32_c2.jpg" width="313" height="71" /></td>
+        <td width="181" class="m-d-n"><a href="http://oja.jp/contact01/reference.html"><img src="second_img/header_reference.jpg" alt="お問い合わせ" name="Image41" width="180" height="72" border="0" id="Image41" onmouseover="MM_swapImage('Image41','','index_img/oja_top_ov_r1_c18.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+        <td width="180" class="m-d-n"><a href="http://oja.jp/contact02/shiryou.html"><img src="second_img/header_pamphlet.jpg" alt="資料請求" name="Image42" width="180" height="72" border="0" id="Image42" onmouseover="MM_swapImage('Image42','','index_img/oja_top_ov_r1_c26.jpg',1)" onmouseout="MM_swapImgRestore()" /></a></td>
       </tr>
       <tr>
         <td colspan="3">&nbsp;</td>
       </tr>
     </table>
-    <table width="950" class="footer-menu" border="0" cellspacing="0" cellpadding="0">
+    <table width="950" class="w-100" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td width="589" class="w-auto d-block" align="left" valign="top"><table width="570" border="0" cellspacing="0" cellpadding="0">
-          <tr>
-            <td width="190" valign="top"><div class="copy01"> <a href="index-ch.html">首页</a></div>
-              <div class="copy01"> <a href="profile-ch.html">学校介绍</a></div>
-              <div class="copy01"> <a href="school-institution-ch.html">学校设施</a></div>
-<div class="copy01"> <a href="curriculum-ch.html">课程介绍</a></div>
-              <div class="copy01"> <a href="recruit-ch.html">募集向导</a></div>
-              <div class="copy01"> <a href="life-support-ch.html">生活支援首页</a></div>
-              <div class="copy01"><a href="one-day-ch.html">学生1日生活过程</a></div>
-              <div class="copy01"><a href="student-ch.html">学生介绍</a></div></td>
-            <td width="190" valign="top"><div class="copy01"> <a href="teache-profile-ch.html">讲师介绍</a></div>
-<div class="copy01"> <a href="schedule-ch.html">年间日程表</a></div>
-<div class="copy01"> <a href="access-ch.html">地图.向导</a></div>
-<div class="copy01"> <a href="city-ch.html">学校周边介绍</a></div>
-<div class="copy01"> <a href="profile-ch.html#riji">理事长一言</a></div>
-<div class="copy01"> <a href="http://oja.jp/contact-ch02/shiryou.html">资料请求</a></div>
-              <div class="copy01"> <a href="http://oja.jp/contact-ch01/reference.html">咨询窗口</a></div>
-              <div class="copy01"> <a href="suppoter-ch.html">我们支援</a></div></td>
-            <td width="190" valign="top"><div class="copy01"> <a href="information-ch.html">通知</a></div>
-              <div class="copy01"> <a href="japanese-culture-ch.html">日本文化体验</a></div>
-              <div class="copy01"> <a href="policy-ch.html">隐私</a></div>
-              <div class="copy01"> <a href="http://ojla.cocolog-nifty.com/blog/" target="_blank">BLOG</a></div>
-              <div class="copy01"> <a href="https://www.facebook.com/oja.jp/" target="_blank">Facebook</a></div></td>
-            </tr>
+        <td width="589" class="w-100 d-block" align="left" valign="top">
+          <table width="570" class="w-100" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="190" valign="top">
+                <div class="copy01"> <a href="index-ch.html">首页</a></div>
+                <div class="copy01"> <a href="profile-ch.html">学校介绍</a></div>
+                <div class="copy01"> <a href="school-institution-ch.html">学校设施</a></div>
+                <div class="copy01"> <a href="curriculum-ch.html">课程介绍</a></div>
+                <div class="copy01"> <a href="recruit-ch.html">募集向导</a></div>
+                <div class="copy01"> <a href="life-support-ch.html">生活支援首页</a></div>
+                <div class="copy01"><a href="one-day-ch.html">学生1日生活过程</a></div>
+                <div class="copy01"><a href="student-ch.html">学生介绍</a></div></td>
+              <td width="190" valign="top">
+                <div class="copy01"> <a href="teache-profile-ch.html">讲师介绍</a></div>
+                <div class="copy01"> <a href="schedule-ch.html">年间日程表</a></div>
+                <div class="copy01"> <a href="access-ch.html">地图.向导</a></div>
+                <div class="copy01"> <a href="city-ch.html">学校周边介绍</a></div>
+                <div class="copy01"> <a href="profile-ch.html#riji">理事长一言</a></div>
+                <div class="copy01"> <a href="http://oja.jp/contact-ch02/shiryou.html">资料请求</a></div>
+                <div class="copy01"> <a href="http://oja.jp/contact-ch01/reference.html">咨询窗口</a></div>
+                <div class="copy01"> <a href="suppoter-ch.html">我们支援</a></div></td>
+              <td width="190" valign="top">
+                <div class="copy01"> <a href="information-ch.html">通知</a></div>
+                <div class="copy01"> <a href="japanese-culture-ch.html">日本文化体验</a></div>
+                <div class="copy01"> <a href="policy-ch.html">隐私</a></div>
+                <div class="copy01"> <a href="http://ojla.cocolog-nifty.com/blog/" target="_blank">BLOG</a></div>
+                <div class="copy01"> <a href="https://www.facebook.com/oja.jp/" target="_blank">Facebook</a></div></td>
+              </tr>
         </table></td>
-        <td width="361"  class="w-auto d-block t-center"  align="left" valign="top"><span class="font80"><strong>查询</strong><br />
-          2-2-12, Nagayoshinagaharanishi, Hirano-ku ,Osaka City, Osaka, Japan 547-0015<br />
-TEL：+81-6-6707-2227<br />
-E-mail：<a href="mailto:contact@oja.jp">contact@oja.jp</a><br />
-URL：<a href="http://www.oja.jp">http://www.oja.jp</a><br />
-<br />
-<strong>お問い合わせ</strong><br />
-547-0015 大阪市平野区長吉長原西2-2-12<br />
-TEL：06-6707-2227<br />
-E-mail：<a href="mailto:contact@oja.jp">contact@oja.jp</a><br />
-URL：<a href="http://www.oja.jp">http://www.oja.jp</a></span></td>
+        <td width="361" class="w-100 d-block t-center" align="left" valign="top">
+          <span class="font80"><strong>查询</strong><br />
+            2-2-12, Nagayoshinagaharanishi, Hirano-ku ,Osaka City, Osaka, Japan 547-0015<br />
+            TEL：+81-6-6707-2227<br />
+            E-mail：<a href="mailto:contact@oja.jp">contact@oja.jp</a><br />
+            URL：<a href="http://www.oja.jp">http://www.oja.jp</a><br />
+            <br />
+            <strong>お問い合わせ</strong><br />
+            547-0015 大阪市平野区長吉長原西2-2-12<br />
+            TEL：06-6707-2227<br />
+            E-mail：<a href="mailto:contact@oja.jp">contact@oja.jp</a><br />
+            URL：<a href="http://www.oja.jp">http://www.oja.jp</a></span></td>
       </tr>
     </table>
   </div>
 </div>
 <div id="underline02"><img src="index_img/no_image.gif" width="10" height="1" /></div>
 <div class="underwhite">
-  <div id="bottommenu"><a href="index-vi.html"><img src="index_img/footer_vi.jpg" alt="Vietnamese" width="110" height="41" border="0" /></a><a href="index-ch.html"><img src="index_img/footer_ch_on.jpg" alt="chinese" width="91" height="41" border="0" /></a><a href="index-en.html"><img src="index_img/footer_en.jpg" alt="English" width="92" height="41" border="0" /></a><a href="index.html"><img src="index_img/footer_jp.jpg" alt="Japanese" width="91" height="41" border="0" /></a></div>
+  <div id="bottomwhite">
+    <div id="bottomcontory "><a href="profile-vi.html"><img src="index_img/footer_vi.jpg" width="110" height="41"
+          border="0" /></a><a href="profile-ch.html"><img src="index_img/footer_ch_on.jpg" width="91" height="41"
+          border="0" /></a><a href="profile-en.html"><img src="index_img/footer_en.jpg" width="92" height="41"
+          border="0" /></a><a href="profile.html"><img src="index_img/footer_jp.jpg" width="91" height="41"
+          border="0" /></a></div>
+  </div>
 </div>
 <div id="copyright">（Ｃ）2013 OSAKA JAPANESE LANGUAGE ACADEMY. All Rights Reserved.</div>
 <script src="assets/js/menu_list.js" type="text/javascript"></script>
@@ -592,4 +713,4 @@ URL：<a href="http://www.oja.jp">http://www.oja.jp</a></span></td>
 </script>
 
 </body>
-<!-- InstanceEnd --></html>
+</html>
