@@ -82,6 +82,10 @@ body {
 	width: 100%;
 	margin-bottom: 15px;
 }
+.pro-ch{
+	position: absolute;
+	left:50%;
+}
 .gorroNitta{
 	background-color: #96C459;
 	border-radius:25px;
