@@ -407,6 +407,9 @@
       height: 232px !important;
       width: 221px !important;
     }
+    .fb-like,.inlineBlock._2tga._89n_._8j9v {
+      display:none !important;
+    }
   }
 
   /*Mobile View*/
