@@ -82,6 +82,10 @@ body {
 	width: 100%;
 	margin-bottom: 15px;
 }
+.pro-ch{
+	position: absolute;
+	left:50%;
+}
 .gorroNitta{
 	background-color: #96C459;
 	border-radius:25px;
@@ -116,7 +120,7 @@ body {
 	width: 100%;
 }
 #bottomwhite{
-	text-align:center;
+	text-align:center !important;
 }
 #bottommenu {
 	width: 472px;
